@@ -24,3 +24,5 @@ else{
 }
 // This condition is for the else when the user selects for the cancel option in this..........
 document.title="I am good";
+// This keyword will set the title of the whole page after loading all the upper commands
+document.body.style.backgroundColor = "pink";
