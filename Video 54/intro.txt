@@ -1,2 +1,2 @@
 What is js?
-Js is used for interactivity of the webpage,
+Js is used for interactivity of the webpage, the client using the browser reaches to your website then the data would be send from the server to the browser and there the data would be fetched and implemented to the client.
