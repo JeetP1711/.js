@@ -9,5 +9,8 @@
             "addWords": true,
             "scope": "workspace"
         }
-    }
+    },
+    "cSpell.ignoreWords": [
+        "let"
+    ]
 }
