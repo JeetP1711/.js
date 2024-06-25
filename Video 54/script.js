@@ -23,3 +23,4 @@ else{
     console.log("Your computer won't blast dw.......🫡🫡.");
 }
 // This condition is for the else when the user selects for the cancel option in this..........
+document.title="I am good";
