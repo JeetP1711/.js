@@ -1,0 +1,2 @@
+What is js?
+Js is used for interactivity of the webpage,
