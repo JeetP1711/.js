@@ -46,7 +46,7 @@ console.log(typeof x,typeof y,typeof z,typeof p,typeof q,typeof r);
 let o = {
     "Name": "Jeet", // In object I mentioned name
     "Code" : 1017 // And a different value of code which is 1017
-} // In object I can add any primitive value in here any means any
+} // In object I can add any primitive value in here any means anyg
 // This is considered as an object where I can store different values in here, just like a structure, but unlike structure, I don't need to mention it.
 console.log(o); // {Name: 'Jeet', Code: 1017}
 o.salary="100Cr"; // This way I can create a other variable in the object too
