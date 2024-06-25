@@ -25,3 +25,31 @@ console.log(a1);
     console.log(b); // Here it will print 230
 }
 console.log(b); // Here it will print 230 only, coz var sets the value globally not block level
+
+// Trying the primitive datatypes
+let x = "Jeet Patel"; // This is string
+let y = 1017; // This is number
+let z = 3.14; // This is float
+const p = true; // This is boolean
+let q = undefined; // This is undefined
+let r = null; // This is object // null is considered as object
+// This are all the primitive datatypes in here
+// String-> The sentences
+// Number-> Different Numbers
+// Float-> Decimals
+// Boolean-> True or False
+// Undefined-> Can't be defined
+// Null-> Its considered as the object
+console.log(x,y,z,p,q,r);
+console.log(typeof x,typeof y,typeof z,typeof p,typeof q,typeof r);
+// Objects in js
+let o = {
+    "Name": "Jeet", // In object I mentioned name
+    "Code" : 1017 // And a different value of code which is 1017
+} // In object I can add any primitive value in here any means any
+// This is considered as an object where I can store different values in here, just like a structure, but unlike structure, I don't need to mention it.
+console.log(o); // {Name: 'Jeet', Code: 1017}
+o.salary="100Cr"; // This way I can create a other variable in the object too
+console.log(o); // {Name: 'Jeet', Code: 1017, salary: '100Cr'}
+o.salary="500Cr"; // Updating the created variable of object
+console.log(o); // {Name: 'Jeet', Code: 1017, salary: '500Cr'}
