@@ -22,3 +22,11 @@ for (const key in obj) { // Here we made a const named key which will fetch the 
         console.log( element); // And this will print the element here..........
         console.log(key, element); // And this will print the element along with the keys.....
 }
+
+// Now ForOf Loop
+// This loop is used to print each element or say character from the array
+
+for (const c of "Jeet") {
+    console.log(c);
+}
+// This is the loop which will print each letter in different line of word "Jeet".
