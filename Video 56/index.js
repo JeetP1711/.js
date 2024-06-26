@@ -45,11 +45,11 @@ comment
 let a = 0;
 // This is the else if ladder where we can see we have made the whole ladder in the else if ladder like the if then else if then else again, this way there are in total 3 conditions in here and same way we can make as many conditions as we want here.....
 if (a >= 18) {
-    console.log("You can drive.");
+    console.log("You can drive."); // If the age will be greater then 18 then this will get printed
 }
 else if (a == 0) {
-    console.log("Are you kidding");
+    console.log("Are you kidding"); // This will be printed when the age will be 0 and this gets printed
 }
 else {
-    console.log("You cannot drive")
+    console.log("You cannot drive"); // This will be printed if both above conditions are false
 }
