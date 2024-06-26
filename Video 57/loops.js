@@ -17,7 +17,7 @@ let obj = {
 // Here we created a object and now we want to print it through the forin loop
 
 // The for in loop is used to fetch the data from the object and print it.....
-for (const key in obj) {
-        const element = obj[key];
-        console.log( element);
+for (const key in obj) { // Here we made a const named key which will fetch the keys like name, id and company from the object obj
+        const element = obj[key]; // This will fetch the data from the obj key and will store here
+        console.log( element); // And this will print the element here..........
 }
