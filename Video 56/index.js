@@ -34,3 +34,10 @@ console.log(realAge);
 // a>=b // This will compare if a is greater then and equal to b // greater then equal to
 // a<=b // This will compare if a is less then and equal to b // less then equal to
 // a?b 
+/*
+This
+is
+a
+multiline
+comment
+*/
