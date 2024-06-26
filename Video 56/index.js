@@ -63,9 +63,11 @@ console.log(z);
 
 /* This translates to
     if(x>y){
-        console.log(x-y);
-    }
-    else{
+        let z= x-y;
+        console.log(z);
+        }
+        else{
+            let z= y-x;
         console.log(y-x);
     }
 */
