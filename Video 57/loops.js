@@ -30,3 +30,11 @@ for (const c of "Jeet") {
     console.log(c);
 }
 // This is the loop which will print each letter in different line of word "Jeet".
+
+// Now let us learn about while loop......
+// This is normal while loop like in c/c++....
+let j = 0;
+while(j<7){ // Here we will give a condition
+    console.log(j); // It will print the j from the up
+    j++; // This will increment the value of j
+} // This is the while loop
