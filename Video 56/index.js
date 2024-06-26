@@ -60,3 +60,12 @@ let x=5, y=9;
 let z = (x>y)?(x-y):(y-x);
 
 console.log(z);
+
+/* This translates to
+    if(x>y){
+        console.log(x-y);
+    }
+    else{
+        console.log(y-x);
+    }
+*/
