@@ -42,7 +42,7 @@ multiline
 comment
 */
 // The else if statements
-let a=13;
+let a=0;
 
 if(a>=18){
     console.log("You can drive.");
