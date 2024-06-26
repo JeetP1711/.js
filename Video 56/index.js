@@ -43,7 +43,7 @@ comment
 */
 // The else if statements
 let a = 0;
-
+// This is the else if ladder where we can see we have made the whole ladder in the else if ladder like the if then else if then else again, this way there are in total 3 conditions in here and same way we can make as many conditions as we want here.....
 if (a >= 18) {
     console.log("You can drive.");
 }
