@@ -23,3 +23,14 @@ realAge /= grace; // realAge = realAge / grace
 realAge %= grace; // realAge = realAge % grace
 realAge **= grace; //realAge = realAge ** grace
 console.log(realAge);
+
+// Comparison Operator
+// a==b // This will compare the both values // equal to
+// a!=b // This will compare and check the not equal to value // not equal to
+// a===b // This will compare the whole type and value // equal to in value and type
+// a!==b // This will compare whole value and type and says not equal to // not equal to value or type
+// a<b // This will compare if a is less then b // lesser then
+// a>b // This will compare if a is greater then b // greater then
+// a>=b // This will compare if a is greater then and equal to b // greater then equal to
+// a<=b // This will compare if a is less then and equal to b // less then equal to
+// a?b 
