@@ -44,3 +44,6 @@ do {
     console.log(j); // It will print the j from the up
     j++; // This will increment the value of j
 } while (j<7);
+
+
+// This was all about the loops and all.........
