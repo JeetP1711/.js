@@ -1,6 +1,7 @@
 console.log("Hi I am conditional operator");
 let age = 5;
 let grace = 2;
+let realAge = 0;
 // Now learning about the operators of js like there are in c/c++
 console.log(age+grace); // This is simple addition operator // Simple Addition // 7
 console.log(age-grace); // This is simple subtraction operator // Simple Subtraction // 3
@@ -14,3 +15,11 @@ if((age+grace) > 18){ //This is the condition like the same like we use c/c++ or
 else{
     console.log("You cannot drive"); // Or else it will print this
 }
+// Assignment Operators
+realAge += grace; // realAge = realAge + grace
+realAge -= grace; // realAge = realAge - grace
+realAge *= grace; // realAge = realAge * grace
+realAge /= grace; // realAge = realAge / grace
+realAge %= grace; // realAge = realAge % grace
+realAge **= grace; //realAge = realAge ** grace
+console.log(realAge);
