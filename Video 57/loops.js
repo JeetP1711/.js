@@ -38,3 +38,9 @@ while(j<7){ // Here we will give a condition
     console.log(j); // It will print the j from the up
     j++; // This will increment the value of j
 } // This is the while loop
+
+// Now do while loop
+do {
+    console.log(j); // It will print the j from the up
+    j++; // This will increment the value of j
+} while (j<7);
