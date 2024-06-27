@@ -16,3 +16,13 @@ function sum(a, b) {
 }
 // This will print the value of sum of a and b directly
 sum(12,13);
+
+// Now if I want to store this result in some variable and give that variable or anything in different things then..........
+
+function sums(x, y){
+    return x + y;
+}
+// If I write return then I can store this values in some variable and print that variable in here.....
+result = sums(14,15);
+// 
+console.log("The sum of the 2 numbers are: "+ result);
