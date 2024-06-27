@@ -19,8 +19,8 @@ sum(12,13);
 
 // Now if I want to store this result in some variable and give that variable or anything in different things then..........
 
-function sums(x, y){
-    return x + y;
+function sums(x, y, c = 4){
+    return x + y + c;
 }
 // If I write return then I can store this values in some variable and print that variable in here.....
 result = sums(14,15);
@@ -29,9 +29,11 @@ console.log("The sum of the 2 numbers are: "+ result); // I have printed the sum
 // I can make different variable for every other values and results....
 result1 = sums(32, 45);
 result2 = sums(244, 95);
-result3 = sums(32, 48);
+result3 = sums(32, 48, 12); // Here I have specified the third value so it will take this value of c instead of the above given value
 // Here I have made different results variables for storing different values in sums
 // Now printing all the variables in line
 console.log("The sum of the 2 numbers are: "+ result1); // I have printed the sums value answer here..... #result1
 console.log("The sum of the 2 numbers are: "+ result2); // I have printed the sums value answer here..... #result2
 console.log("The sum of the 2 numbers are: "+ result3); // I have printed the sums value answer here..... #result3
+// I have printed all the different results here.............
+// This is called the optional operators in functions, which take the value as initial value and if we give some value then it will take that value for the specific...........
