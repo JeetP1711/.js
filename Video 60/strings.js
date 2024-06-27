@@ -1,5 +1,6 @@
 console.log("This is string tutorials..");
 let a = "Jeet";
+let b = "Vaidehi";
 
 console.log(a); // Simply Printing the a string
 console.log(a[0]) // Accessing the first character of the string here which is J
@@ -9,4 +10,4 @@ console.log(a[3]) // Accessing the fourth character of the string here which is 
 console.log(a[4]) // Accessing the fifth character of the string here which is not possible and not present so it will show undefined in the terminal. JS is the most error less language, it will try its best to not show errors and resolve the errors by itself as fast and perfect as possible.......
 console.log(a.length); // Printing the length of the a string
 // Template Literals
-console.log("Hi my name is "+ a);
+console.log("Hi my name is " + a + " and his friend's name is" + b);
