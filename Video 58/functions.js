@@ -11,3 +11,8 @@ function nice(name){
 nice("Jeet"); //Calling the nice function for name = "Jeet"
 
 // Now let us make a function which will sum the 2 numbers we want and we will sum that 2 numbers.......
+function sum(a, b) {
+    console.log(a+b); // This will print the values of a + b
+}
+// This will print the value of sum of a and b directly
+sum(12,13);
