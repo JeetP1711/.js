@@ -24,5 +24,10 @@ function sums(x, y){
 }
 // If I write return then I can store this values in some variable and print that variable in here.....
 result = sums(14,15);
-// 
-console.log("The sum of the 2 numbers are: "+ result);
+// And here I have stored the sums value in result variable
+console.log("The sum of the 2 numbers are: "+ result); // I have printed the sums value answer here..... #result
+// I can make different variable for every other values and results....
+result1 = sums(32, 45);
+result2 = sums(244, 95);
+result3 = sums(32, 48);
+// Here I have made different results variables for storing different values in sums
