@@ -31,3 +31,7 @@ result1 = sums(32, 45);
 result2 = sums(244, 95);
 result3 = sums(32, 48);
 // Here I have made different results variables for storing different values in sums
+// Now printing all the variables in line
+console.log("The sum of the 2 numbers are: "+ result1); // I have printed the sums value answer here..... #result1
+console.log("The sum of the 2 numbers are: "+ result2); // I have printed the sums value answer here..... #result2
+console.log("The sum of the 2 numbers are: "+ result3); // I have printed the sums value answer here..... #result3
