@@ -16,3 +16,9 @@ console.log("Hi my name is " + a + " and my friend's name is" + b);
 console.log(`Hi my name is ${a} and my friend's name is ${b}`);
 // SO this way I can add the `` instead of "" in the sense to just add the variables so much smoother and faster in the way to make things smooth and easy...
 // I can directly add the variables by ${name} and that variable would be added to the line and console.log()
+// Escape Sequences, what are escape sequences??????
+// Escape Sequence are those which are needed in the program to add some lines or add some space or special characters in the line which normally are not allowed in the line. 
+// For example, "", tab spaces, line breaks and much more....
+// \n -> line break
+// \" -> for "
+// \t -> tab space
