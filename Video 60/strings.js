@@ -22,3 +22,6 @@ console.log(`Hi my name is ${a} and my friend's name is ${b}`);
 // \n -> line break
 // \" -> for "
 // \t -> tab space
+console.log("I am adding a \n line break \n here too....."); // \n is for the line break between this words and shifting the lines to new line
+console.log("I am adding a \"double quotes\" here too how we can add this....."); // \" is used to add the double quotes in the line through it...
+console.log("A \t space \t tab between this words...") // \t is used to add the tab space between the lines here...
