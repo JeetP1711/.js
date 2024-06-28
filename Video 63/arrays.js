@@ -40,3 +40,6 @@ let a3 = [9,8,7];
 // Now let's concat this three arrays
 // console.log(a1.concat(a2,a3)); // Here I have concated values of a2 and a3 in a1, and this way both a2 and a3 are here concated in a1....
 // And the concat doesn't change the value of arrays here
+// Sort in js
+// a3.sort(); // This will sort the whole a3 array to 7,8,9 
+// Sort function is used to sort the array
