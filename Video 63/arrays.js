@@ -17,3 +17,5 @@ console.log(arr[6]);
 // I can even change the arrays value in here
 arr[0] = 6999;
 console.log("Changed value of arr[0] -> ",arr[0]);
+// In console, type of array is considered as the object..
+console.log("Type of Array arr-> ",typeof arr);
