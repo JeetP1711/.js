@@ -23,3 +23,4 @@ console.log("Type of Array arr-> ",typeof arr);
 // I can even convert this array into the string
 // By using the toString property in JS
 console.log("Converting the array into string-> ",arr.toString()); // By this the array is now converted into the string...
+console.log(arr.join(" and "));
