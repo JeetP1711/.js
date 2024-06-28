@@ -32,4 +32,11 @@ console.log(arr.join(" and "));
 // // Push adds element and pop removes the element
 // arr.shift(); // This will remove the element from front with index 0, which is 1 here..., means it is like pop but from front index 1 // First index removed
 // arr.unshift(10); // This will add the element 10 at the front with index[0], means it is like push but from front.... // First index added
-console.log(arr);
+// Now lets learn about concat in arrays
+let a1 = [1,2,3];
+let a2 = [4,5,6];
+let a3 = [9,8,7];
+// I have taken this three arrays
+// Now let's concat this three arrays
+// console.log(a1.concat(a2,a3)); // Here I have concated values of a2 and a3 in a1, and this way both a2 and a3 are here concated in a1....
+// And the concat doesn't change the value of arrays here
