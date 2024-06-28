@@ -25,3 +25,11 @@ console.log("Type of Array arr-> ",typeof arr);
 console.log("Converting the array into string-> ",arr.toString()); // By this the array is now converted into the string...
 console.log(arr.join(" and "));
 // The join func also converts the array into to string and even more instead of , we can separate this string elements by whatever we want, like above i have converted the , into and, so the elements are separated by and......
+// Now lets talk about some functions which are important like push(), pop(), shift(), unshift().....
+// arr.pop(); // This will remove the element from the behind which is 7 here......   // Last index removed
+// arr.push(1); // This will add the element 1 at the behind in the index[6], pop and push both works at the last element // Last index added
+// arr.push("Jeet");
+// // Push adds element and pop removes the element
+// arr.shift(); // This will remove the element from front with index 0, which is 1 here..., means it is like pop but from front index 1 // First index removed
+// arr.unshift(10); // This will add the element 10 at the front with index[0], means it is like push but from front.... // First index added
+console.log(arr);
