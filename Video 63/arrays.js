@@ -43,3 +43,10 @@ let a3 = [9, 8, 7];
 // Sort in js
 // a3.sort(); // This will sort the whole a3 array to 7,8,9
 // Sort function is used to sort the array
+
+
+// The slice in array
+let ar2 = [1,2,3,4,5,6,7,8,9];
+
+// console.log(ar2.slice(1,3)); // slice keyword slices out the whole array into a part like ar2.slice(starting index, ending index-1)
+console.log(ar2.splice(3,3));
