@@ -49,4 +49,5 @@ let a3 = [9, 8, 7];
 let ar2 = [1,2,3,4,5,6,7,8,9];
 
 // console.log(ar2.slice(1,3)); // slice keyword slices out the whole array into a part like ar2.slice(starting index, ending index-1)
-console.log(ar2.splice(3,3));
+ar2.splice(1,2); // Here the syntax of the splice is ar2.splice(index select, no. of indexes to remove (whatsoever number is written here that much number of index will be removed like here 2 indexes will be removed))
+console.log(ar2); // printing the spliced array.
