@@ -31,3 +31,16 @@ arr.unshift(10); // This will add the element 10 at the front with index[0], mea
 // I can even delete the elements using the index number from the array
 delete arr[5]; // This deletes the array element on 5th index of the array
 console.log(arr); // As its seen in here the arr has no element on its 5th index now, its showing empty...
+// When the delete is used, so it doesn't delete the alloted memory from there, it just deletes the value, but the memory of that element is still present there
+console.log(arr[5]); // Here the output shows undefined, means the memory is still allocated for the arr[5], its just its not showing the value of arr[5]
+// Now lets learn about concat in arrays
+let a1 = [1, 2, 3];
+let a2 = [4, 5, 6];
+let a3 = [9, 8, 7];
+// I have taken this three arrays
+// Now let's concat this three arrays
+console.log(a1.concat(a2,a3)); // Here I have concated values of a2 and a3 in a1, and this way both a2 and a3 are here concated in a1....
+// And the concat doesn't change the value of arrays here
+// Concat doesn't change the array, it just mixes the arrays or whatever datatype or variable, you want to mix it in there, that gets mixes up
+let n1 = "Jeet"; // Here, I have took a string and m trying to mix it with the array..
+console.log(a1.concat(n1)); // And tada, I can mix this with the array in here
