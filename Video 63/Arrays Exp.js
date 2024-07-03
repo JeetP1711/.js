@@ -2,17 +2,16 @@
 What are Arrays?
 Arrays are the data type which can hold more that one data type in it, like it can hold a string, a number and a bool value at same time in one array.
 Like I can store a number, a string, and a bool in one same array without any hesitation in here...
-
 */
-let arr = [1,2,3,4,5,6,7];
+let arr = [1, 2, 3, 4, 5, 6, 7];
 
 console.log(arr); // This will print the whole array in here
 console.log(arr.length); // This will print the length of the array in here
 console.log(arr[1]); // This way I can even print the specific element of the array by giving the index number with the array name......
 
-arr[0]= 6969; // If I want to change the specific value of the array than I need to write and code it like this, so now the value of a[0] is now 6969 and now the array is been updated with the new value. So this way array is mutable and can be updated like this.
+arr[0] = 6969; // If I want to change the specific value of the array than I need to write and code it like this, so now the value of a[0] is now 6969 and now the array is been updated with the new value. So this way array is mutable and can be updated like this.
 console.log(arr[0]); // Now the value of arr[0] is updated to 6969.....
-console.log(typeof(arr)); // This is the way to print the type of the data type arr and this will show object
+console.log(typeof (arr)); // This is the way to print the type of the data type arr and this will show object
 // The console determines the array as an object here
 
 // Now if I want to convert my array into string, than I can do that too
@@ -39,8 +38,15 @@ let a2 = [4, 5, 6];
 let a3 = [9, 8, 7];
 // I have taken this three arrays
 // Now let's concat this three arrays
-console.log(a1.concat(a2,a3)); // Here I have concated values of a2 and a3 in a1, and this way both a2 and a3 are here concated in a1....
+console.log(a1.concat(a2, a3)); // Here I have concated values of a2 and a3 in a1, and this way both a2 and a3 are here concated in a1....
 // And the concat doesn't change the value of arrays here
 // Concat doesn't change the array, it just mixes the arrays or whatever datatype or variable, you want to mix it in there, that gets mixes up
 let n1 = "Jeet"; // Here, I have took a string and m trying to mix it with the array..
 console.log(a1.concat(n1)); // And tada, I can mix this with the array in here
+console.log(arr.concat(n1, a1, a2, a3)); // And here I have mixed all the arrays along with the string and its showing the output directly by mixing all the things up.
+// Sorting in js
+// To sort array in js, u just need to write .sort() and it will sort the array automatically
+let arr2 = [23, 1, 3, 67, 89, 4, 55, 67, 69];
+arr2.sort();
+console.log(arr2);
+// This will give you the sorted array by itself, you don't need to write the big big codes, like that been in c and cpp.......
