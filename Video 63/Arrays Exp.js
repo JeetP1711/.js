@@ -56,7 +56,7 @@ console.log(arr2);
 // Original Array ------> [23, 11, 3, 67, 89, 4, 55, 67, 69]->[Original Array]
 
 // Now adding the numbers with splicing.............
-arr2.splice(1, 3, 222, 333);
+// arr2.splice(1, 3, 222, 333);
 // The first 2 numbers in bracket are for deleting or say splicing the elements out of the array, and other 2 numbers mentioned here, will take place of that elements which are spliced here....
 // Output ---> [  23, 222, 333, 89, 4, 55, 67, 69]
 // 222 took position of index 1 and 333 took position of index 2 in here......
@@ -64,4 +64,4 @@ arr2.splice(1, 3, 222, 333);
 // arr2.splice(1,3,1) // This will add one element in space of three elements spliced
 // arr2.splice(1,3,111,222,333) // This will add three elements in space of three elements spliced
 // arr2.splice(1,3) // This will add no elements in space of three elements spliced
-console.log(arr2);
+// console.log(arr2);

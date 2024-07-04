@@ -1,6 +1,7 @@
 let arr2 = [23, 11, 3, 67, 89, 4, 55, 67, 69];
+let arr3 = [23, 11, 3, 67, 89, 4, 55, 67, 69];
 console.log(arr2);
-arr2.splice(1,3); // This will splice 3 elements from starting with index 1
+// arr2.splice(1, 3); // This will splice 3 elements from starting with index 1
 // Splice works like, splice(1,3), so this means 1st in bracket shows the index number to select, so here we selected index 1, (i.e. 11 number) and the 2nd number in the bracket shows that how much number to splice (i.e. delete from the array), so here we spliced 3 numbers from index 1, (i.e. 11,3&67 this numbers will be spliced from the array)
 // And the output will be....... ---> [ 23, 89, 4, 55, 67, 69 ] [spliced array]
 // Original Array ------> [23, 11, 3, 67, 89, 4, 55, 67, 69]->[Original Array]
@@ -14,4 +15,9 @@ arr2.splice(1,3); // This will splice 3 elements from starting with index 1
 // arr2.splice(1,3,1) // This will add one element in space of three elements spliced
 // arr2.splice(1,3,111,222,333) // This will add three elements in space of three elements spliced
 // arr2.splice(1,3) // This will add no elements in space of three elements spliced
-console.log(arr2);
+// console.log(arr2);
+console.log(arr3.slice(1, 3)); // ANd here it is printing the sliced part (i.e. [11,3])
+// Slice is just another bro of splice, like slice will not harm or modify the array, but it will just slice the selected elements from the array
+// Like here I selected the between index 1 and 3 and just printed that elements using slice....
+// This doesn't modify the original array
+console.log(arr3) // like here its printing normal whole array
