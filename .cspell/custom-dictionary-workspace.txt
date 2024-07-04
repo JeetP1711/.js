@@ -9,6 +9,7 @@ dolore
 donot
 euismod
 laoreet
+lightcyan
 nibh
 nonummy
 oracledevtools
