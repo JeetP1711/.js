@@ -1,0 +1,1 @@
+// Map is used to generate the new array from the reference of the other array, without manually writing the array elements
