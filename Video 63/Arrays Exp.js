@@ -65,3 +65,8 @@ console.log(arr2);
 // arr2.splice(1,3,111,222,333) // This will add three elements in space of three elements spliced
 // arr2.splice(1,3) // This will add no elements in space of three elements spliced
 // console.log(arr2);
+// Array.from can convert anything into array
+console.log(Array.from("Jeet")); // This will convert any string into an array by creating different characters the different element // Output --> ['J','e','e','t']
+
+// With this the arrays is being completed..............
+// Jsk....💖
