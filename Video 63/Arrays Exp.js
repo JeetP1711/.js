@@ -46,7 +46,12 @@ console.log(a1.concat(n1)); // And tada, I can mix this with the array in here
 console.log(arr.concat(n1, a1, a2, a3)); // And here I have mixed all the arrays along with the string and its showing the output directly by mixing all the things up.
 // Sorting in js
 // To sort array in js, u just need to write .sort() and it will sort the array automatically
-let arr2 = [23, 1, 3, 67, 89, 4, 55, 67, 69];
-arr2.sort();
+let arr2 = [23, 11, 3, 67, 89, 4, 55, 67, 69];
+// arr2.sort();
 console.log(arr2);
 // This will give you the sorted array by itself, you don't need to write the big big codes, like that been in c and cpp.......
+arr2.splice(1,3); // This will splice 3 elements from starting with index 1
+// Splice works like, splice(1,3), so this means 1st in bracket shows the index number to select, so here we selected index 1, (i.e. 11 number) and the 2nd number in the bracket shows that how much number to splice (i.e. delete from the array), so here we spliced 3 numbers from index 1, (i.e. 11,3&67 this numbers will be spliced from the array)
+// And the output will be....... ---> [ 23, 89, 4, 55, 67, 69 ] [spliced array]
+// Original Array ------> [23, 11, 3, 67, 89, 4, 55, 67, 69]->[Original Array]
+console.log(arr2);
