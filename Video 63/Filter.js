@@ -1,8 +1,8 @@
 // Filter is used to filter out the specific values from the array, like filtering and showing just the numbers greater than 7.....
 let array = [1, 34, 2, 6, 2, 17, 13];
 
-let greater_than_7 = ((e)=>{
-    if(e>7){
+let greater_than_7 = ((e) => {
+    if (e > 7) {
         return true;
     }
     return false;
