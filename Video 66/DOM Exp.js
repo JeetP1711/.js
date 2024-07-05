@@ -15,5 +15,8 @@ document.body.style.backgroundColor = "lightcyan";
 
 
 // What is Window Element??
-
+// A window element is the global element for selecting whole and everything
+// Like if I write window in console, it will show me everything
+// Like document comes in the window element, its like the perfect way of writing the document is...------> window.document
+// Both will do the same things, but the window element is the global element in here.....
 // What is BOM??
