@@ -12,3 +12,4 @@ document.body.style.backgroundColor = "lightcyan";
 // In our case the body tag will be updated to the <body style = "background-color: lightcyan">
 // A window is considered as the main from the browser, like the browser is a part of the windows, like different tabs in windows is referred as the windows, and the browser is also in the window.
 // And in window there is document than there is the body and 
+// What is BOM Model??
