@@ -24,3 +24,9 @@ document.body.style.backgroundColor = "lightcyan";
 
 // We are studying this all things, so that we can target our elements, which we want to change and change there properties, or say we can select those elements which we want, it can be div, p or anything u want to target through your script....
 // What is BOM??
+
+
+
+
+// Console Pro-Tip:-> Whatever element I select in html while inspect mode is on, will get the name "$0", so for changing its style or anything, I just need to write $0 in console and it will be selected......Automatically....
+// So whatever I will write in console now, will be applied to that object or division, whichsoever is selected at that time...
