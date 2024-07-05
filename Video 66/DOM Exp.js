@@ -1,3 +1,19 @@
 // What is DOM??
+// DOM stands for -->> Document Object Model
+// And DOM is used to map all the data from the html file and define it into document tree
+// Through DOM, it allows us to edit the whole html body elements using document.body --> selects the body and we can go further in depth in next files...
+// DOM is used to change the inner text or style of any element present in the html file and allow it to edit ad change it....
+// DOM allows us to change the content of the html file through script from here.......
+console.log(document.title); // I can print the title of the page through this command...
+console.log(document.body); // I can print the whole body of the html through this here.....
+// !!! This DOM can only be ran on the console of the browser, it can't run on the terminal through node, it's just and just for browser and web pages.....
+document.body.style.backgroundColor = "lightcyan";
+// See here, I have written this and this will change the background color of the whole body..
+// And whatever css or style I give in here will be added as the inline css for the body, or any element I select through dom will be added as inline property not in the internal or external css or like that
+// Just inline css will be added for this
+// In our case the body tag will be updated to the <body style = "background-color: lightcyan">
+
+
 // What is Window Element??
+
 // What is BOM??
