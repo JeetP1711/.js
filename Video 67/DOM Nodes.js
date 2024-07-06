@@ -6,6 +6,12 @@ console.log("Hello");
 // document.childNodes[1] //  Similarly, this will give me the second element, of the html body, means it will return the div.box Box1 element, which is a division element so it will return me the division element
 // document.firstChild // This will give me the first element, of the html body, means it will return the text which is the space and enter we gave in the starting before the div.container in the body
 // FirstChild ---> will give me the first child of whole html body...., means it will be here the empty space which is referred here to the text form node..
+// FirstChild means the first ever child of the body, which normally is the space in here...
+// document.childNodes[1].childNodes ---> // This will give me the all childNodes of the div.container here will are all the boxes from box1-box5......
+// And it will not only give the boxes, but also the text nodes, which are the enter and empty spaces in here in the div.container before the boxes in the div
+// The output will be........... [text, comment, text, div.box, text, div.box, text, div.box, text, div.box, text, div.box, text]
+// Here the text refers to the empty spaces and the text given in here and the comment is the basic comment given here........
+// This console will count all the empty spaces in here as a text format
 
 
 
@@ -24,4 +30,5 @@ console.log("Hello");
 
     NodeList(5) [text, div.container, text, script, text] // This will
     // firstChild etle ki je b pelo child hase akha html file no, jem ki ahiya return karse ae text form, karanke ahiya je apde extra space and enter space apel che ae ahiya text return karse, karanke je empty spaces hoy ae html ma as a text element ganay che, coz it refers as text.........
+    // Agar 2 element vache space ke tab space b hase ke ek enter b hase ne to b ae text form node ghanase, coz
 */
