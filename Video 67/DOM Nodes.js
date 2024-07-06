@@ -19,6 +19,11 @@ console.log("Hello");
 // let cont = document.childNode[2] // This way I can assign this variable a value of the childNode from here only, so now if I want to do anything with that element I just need to write, cont.childNode[2], then this will give me div.container's child node............
 // The variable thing is really very useful.....
 
+// Now if I want to directly select the first element, like I want to have the first div in the body element than, there's a key word too
+// document.firstElementChild ---> This will directly give me the first element like divs, paras, or something like that.......
+// So it will return me div.container and if i write same in this...
+// document.firstElementChild.firstElementChild ----> This will return me box 1, rather than comments and anything this will return me box 1
+
 
 
 
@@ -41,4 +46,6 @@ console.log("Hello");
 
     // Now if I write document.childNodes[1].childNodes ----->> then It will return me the elements of the div.container
     // Like aa nested jevu che, ke ek element na andar na child elements na childElements, and ahiya badha batavse, like ahiya apde je tree structure kaiye ne evu tree struct che, and eni jevi ritna aa akhu agad jaay and vadhe and u can track elements such way....
+
+    // FirstElementChild ----> aa vastu koi b element 
 */
