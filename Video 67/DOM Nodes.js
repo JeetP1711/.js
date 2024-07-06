@@ -4,7 +4,8 @@ console.log("Hello");
 // And the output of this in console is --> NodeList(5) [text, div.container, text, script, text]
 // document.childNodes[0] //  This will give me the first element, of the html body, means it will return the text which is the space and enter we gave in the starting before the div.container in the body
 // document.childNodes[1] //  Similarly, this will give me the second element, of the html body, means it will return the div.box Box1 element, which is a division element so it will return me the division element
-// document.firstChild // This will give me the 
+// document.firstChild // This will give me the first element, of the html body, means it will return the text which is the space and enter we gave in the starting before the div.container in the body
+// FirstChild ---> will give me the first child of whole html body...., means it will be here the empty space which is referred here to the text form node..
 
 
 
