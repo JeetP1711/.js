@@ -9,4 +9,5 @@
     </div>
 
     NodeList(5) [text, div.container, text, script, text] // This will
+    // firstChild etle ki je b pelo child hase akha html file no, jem ki ahiya return karse ae text form, karanke ahiya je apde extra space and enter space apel che ae ahiya text return karse, karanke je empty spaces hoy ae html ma as a text element ganay che, coz it refers as text.........
 */
