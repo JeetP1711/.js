@@ -67,7 +67,8 @@ console.log("Hello");
     // document.body.firstElementChild.children ----> This will return us ---> [div.box, div.box, div.box, div.box, div.box] // All the div from the div.container
     // .children ---> This will give all the element child from the element being selected.....
     // And now apde je ritna childNodes ma atu evu same apde ama hoy like ----> like hu ahiya particular element ne b point kari saku
-    // Like if I want to select the box 2 from the div.container then I need to write like...... document.body.firstElementChild.children[1] ----> This will select the 
+    // Like if I want to select the box 2 from the div.container then I need to write like...... document.body.firstElementChild.children[1] ----> This will select the 2nd div.box means box2...
+    // Now same way I can select the 3rd box by writing document.body.firstElementChild.children[2]
 
 
 
