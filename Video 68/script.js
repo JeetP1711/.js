@@ -1,1 +1,3 @@
 console.log("Hello World");
+document.getElementsByClassName("box") // This will select all the elements with the class name "box"....
+// document.getElementById("box1") // This will select the element 
