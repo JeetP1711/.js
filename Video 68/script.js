@@ -44,5 +44,12 @@
 // And as we have talked each element will get the inline style if in case we give them styling through the javaScript from here.....
 
 // Now If i want to select the elements using the tag name like i want to select all the divs present here, then I will need to write....⬇️⬇️
-document.getElementsByTagName("div"); // This will select all the elements with the tag name div, even the parent div will also get selected
+// document.getElementsByTagName("div"); // This will select all the elements with the tag name div, even the parent div will also get selected
 // Tuk ma badha tag select thase je div hase.... simple
+
+// Now there are some key words for checking the elements are matching or are closest with the element being selected here....
+// let e =  document.getElementsByTagName("div"); // Just giving this a variable and storing all the divs in e
+// Now I want to check if the e[3] matches with the id = "box3" or not
+// console.log(e[3].matches("#box3")); // And this shows true coz the fourth div of whole html body has the id = box3
+// Now I can do it with the class too...
+// console.log(e[0].matches(".container")); // This returns true coz the first div in the body has the class container which contains all the 5 div.box......
