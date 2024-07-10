@@ -13,3 +13,9 @@ console.log("Hello");
 // So for selecting specific element we take the id for it...
 let a = document.getElementById("box3"); // Here I have selected the element by the id box3 and stated that in the variable a
 a.style.backgroundColor = "yellow"; // Styling the selected variable and giving it the BgColor yellow
+// This ids and class works as the normal classes and ids like we give in the html and css
+// Class for multiple elements and id for the specific element...
+// But.........⬇️⬇️
+// There's a difference in the syntax of both id and class 
+// For id ---> document.getElementById // We write here **Element** just element
+// For class ---> document.getElementsByClassName // We write here **Elements** elements, coz a class has multiple elements in one class
