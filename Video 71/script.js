@@ -7,9 +7,16 @@
 // .innerHTML shows the inner code of the html element...
 // This returns whole code, even the html elements in here too
 // If u want to also know the full html along with the element itself then u need to write like...
-console.log(document.querySelector(".box").outerHTML); // This will print me the div.box itself too like..... // <div class="box">This is the <b>Box</b>..</div>
+// console.log(document.querySelector(".box").outerHTML); // This will print me the div.box itself too like..... // <div class="box">This is the <b>Box</b>..</div>
 // The outerHTML even prints the tag itself where innerHTML don't...
 // Diff. Between .innerHTML & .outerHTML.
 // .innerHTML just prints the text inside the tag... like here it prints the ... --> "This is the <b>Box</b>.." 
 // .outerHTML prints the whole element along with the code itself including the tag and class or id of the html element.
 // So simply, .innerHTML prints only text of html element, and .outerHTML prints the whole element along with the text
+
+// And there's a one more too to just show the text of the inner elements of a container like here in the html file
+console.log(document.querySelector(".container").innerHTML); // '\n        <div class="box">This is the <b>Box</b>..</div>\n        <div class="box">This is the <b>Box</b>..</div>\n    '
+// This will print the whole element in this
+// But if I use .innerText.. then it will only print the text of both the inner elements
+console.log(document.querySelector(".container").innerText); // This will print... // 'This is the Box..\nThis is the Box..'
+// The .innerText only prints the text inside the element and no tags, but the .innerHTML prints the sub tags too like here div.box and b tags...
