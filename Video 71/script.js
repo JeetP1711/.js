@@ -9,3 +9,7 @@
 // If u want to also know the full html along with the element itself then u need to write like...
 console.log(document.querySelector(".box").outerHTML); // This will print me the div.box itself too like..... // <div class="box">This is the <b>Box</b>..</div>
 // The outerHTML even prints the tag itself where innerHTML don't...
+// Diff. Between .innerHTML & .outerHTML.
+// .innerHTML just prints the text inside the tag... like here it prints the ... --> "This is the <b>Box</b>.." 
+// .outerHTML prints the whole element along with the code itself including the tag and class or id of the html element.
+// So simply, .innerHTML prints only text of html element, and .outerHTML prints the whole element along with the text
