@@ -50,3 +50,33 @@
 // And now if I want to remove any attribute from the code, I need to write like
 // document.querySelector(".box").removeAttribute("style"); // this removed the attribute named style from the line
 // removeAttribute is used to remove the attribute from the line, like here I removed the style attribute from the code in here or say the line mentioned.....
+
+// Ave apde joiye ke kevi ritna aama apde insert kari sakiye elements ne and ene edit karvu hoy to kevi ritna
+
+// Ama apde elements insert karvani to khasi methods che but ema apde jovanu che ke kevi ritna karay
+
+// Ahiya ave ek navo element banaisu apde ave ahiy
+
+
+// 1. Append Method
+let div1 = document.createElement("div");
+div1.innerHTML = "I am been inserted <b>by Jeet</b>";
+div1.setAttribute("class", "created");
+document.querySelector(".container").append(div1);
+// Explaination of code....
+// let div1 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
+// div1.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
+// div1.setAttribute("class","created"); // Ene apde class apyu .setAttribute thi ----> setAttribute("class","created") ---> etle peli value batave ke apde su apiye che ke su banaiye chiye ----> ahiya apde class banayu jene value api created
+// document.querySelector(".container").append(div1); // .append() ---> ano matlab ke aa at last ma add kari dese div.container ma ekdum chele add kari dese...
+
+
+// 2. Prepend Method
+let div2 = document.createElement("div");
+div2.innerHTML = "I am been inserted <b>by Jeet</b>";
+div2.setAttribute("class", "created");
+document.querySelector(".container").prepend(div2);
+// Explaination of code....
+// let div2 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
+// div2.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
+// div2.setAttribute("class","created"); // Ene apde class apyu .setAttribute thi ----> setAttribute("class","created") ---> etle peli value batave ke apde su apiye che ke su banaiye chiye ----> ahiya apde class banayu jene value api created
+// document.querySelector(".container").prepend(div2); // .prepend() ---> ano matlab ke aa at last ma add kari dese div.container ma ekdum pehla add kari dese...
