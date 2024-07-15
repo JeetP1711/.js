@@ -1,3 +1,5 @@
+aama
+aani
 adipiscing
 agad
 ahiya
@@ -7,6 +9,7 @@ aliquam
 andar
 apde
 apel
+apine
 autofetch
 avse
 badha
@@ -23,8 +26,10 @@ divs
 dolore
 donot
 ekla
+enathi
 etle
 euismod
+ganase
 ganay
 ganse
 ghanase
@@ -32,7 +37,9 @@ hase
 jaay
 jagya
 jani
+janvu
 jase
+jemke
 jemki
 jevi
 jevu
@@ -40,6 +47,7 @@ jode
 joiye
 kaiye
 karanke
+kare
 karela
 karse
 karyu
@@ -58,13 +66,16 @@ nonummy
 oracledevtools
 oraclesql
 pachi
+pade
 pelo
 ritna
+sakiye
 saku
 tada
 tarikej
 tincidunt
 vache
 vadhe
+varu
 vastu
 volutpat
