@@ -80,3 +80,15 @@ document.querySelector(".container").prepend(div2);
 // div2.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
 // div2.setAttribute("class","created"); // Ene apde class apyu .setAttribute thi ----> setAttribute("class","created") ---> etle peli value batave ke apde su apiye che ke su banaiye chiye ----> ahiya apde class banayu jene value api created
 // document.querySelector(".container").prepend(div2); // .prepend() ---> ano matlab ke aa at last ma add kari dese div.container ma ekdum pehla add kari dese...
+
+
+// 3. Before Method
+let div3 = document.createElement("div");
+div3.innerHTML = "I am been inserted <b>by Jeet</b>";
+div3.setAttribute("class", "created");
+document.querySelector(".container").before(div3);
+// Explaination of code....
+// let div2 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
+// div2.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
+// div2.setAttribute("class","created"); // Ene apde class apyu .setAttribute thi ----> setAttribute("class","created") ---> etle peli value batave ke apde su apiye che ke su banaiye chiye ----> ahiya apde class banayu jene value api created
+// document.querySelector(".container").prepend(div2); // .prepend() ---> ano matlab ke aa body ma ekdum pehla add kari dese... matlab div.container ni upar
