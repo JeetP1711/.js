@@ -59,10 +59,10 @@
 
 
 // 1. Append Method
-let div1 = document.createElement("div");
-div1.innerHTML = "I am been inserted <b>by Jeet</b>";
-div1.setAttribute("class", "created");
-document.querySelector(".container").append(div1);
+// let div1 = document.createElement("div");
+// div1.innerHTML = "I am been inserted <b>by Jeet</b>";
+// div1.setAttribute("class", "created");
+// document.querySelector(".container").append(div1);
 // Explaination of code....
 // let div1 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
 // div1.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
@@ -71,10 +71,10 @@ document.querySelector(".container").append(div1);
 
 
 // 2. Prepend Method
-let div2 = document.createElement("div");
-div2.innerHTML = "I am been inserted <b>by Jeet</b>";
-div2.setAttribute("class", "created");
-document.querySelector(".container").prepend(div2);
+// let div2 = document.createElement("div");
+// div2.innerHTML = "I am been inserted <b>by Jeet</b>";
+// div2.setAttribute("class", "created");
+// document.querySelector(".container").prepend(div2);
 // Explaination of code....
 // let div2 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
 // div2.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
@@ -83,24 +83,36 @@ document.querySelector(".container").prepend(div2);
 
 
 // 3. Before Method
-let div3 = document.createElement("div");
-div3.innerHTML = "I am been inserted <b>by Jeet</b>";
-div3.setAttribute("class", "created");
-document.querySelector(".container").before(div3);
+// let div3 = document.createElement("div");
+// div3.innerHTML = "I am been inserted <b>by Jeet</b>";
+// div3.setAttribute("class", "created");
+// document.querySelector(".container").before(div3);
 // Explaination of code....
 // let div2 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
 // div2.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
 // div2.setAttribute("class","created"); // Ene apde class apyu .setAttribute thi ----> setAttribute("class","created") ---> etle peli value batave ke apde su apiye che ke su banaiye chiye ----> ahiya apde class banayu jene value api created
-// document.querySelector(".container").prepend(div2); // .prepend() ---> ano matlab ke aa body ma ekdum pehla add kari dese... matlab div.container ni upar
+// document.querySelector(".container").before(div2); // .before() ---> ano matlab ke aa body ma ekdum pehla add kari dese... matlab div.container ni upar
 
 
 // 4. After Method
-let div4 = document.createElement("div");
-div4.innerHTML = "I am been inserted <b>by Jeet</b>";
-div4.setAttribute("class", "created");
-document.querySelector(".container").after(div4);
+// let div4 = document.createElement("div");
+// div4.innerHTML = "I am been inserted <b>by Jeet</b>";
+// div4.setAttribute("class", "created");
+// document.querySelector(".container").after(div4);
 // Explaination of code....
 // let div2 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
 // div2.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
 // div2.setAttribute("class","created"); // Ene apde class apyu .setAttribute thi ----> setAttribute("class","created") ---> etle peli value batave ke apde su apiye che ke su banaiye chiye ----> ahiya apde class banayu jene value api created
-// document.querySelector(".container").prepend(div2); // .prepend() ---> ano matlab ke aa body ma ekdum chelle add kari dese... matlab div.container ni niche
+// document.querySelector(".container").after(div2); // .after() ---> ano matlab ke aa body ma ekdum chelle add kari dese... matlab div.container ni niche
+
+
+// 5. After Method
+let div5 = document.createElement("div");
+div5.innerHTML = "I am been inserted <b>by Jeet</b>";
+div5.setAttribute("class", "created");
+document.querySelector(".container").replaceWith(div5);
+// Explaination of code....
+// let div2 = document.createElement("div"); // Aa line no matlab ki ahiya apde ek element banaiye che je ek div che...
+// div2.innerHTML = "I am been inserted <b>by Jeet</b>"; // Aano matlab ke ama hu aa add karis and lakhis aa andar
+// div2.setAttribute("class","created"); // Ene apde class apyu .setAttribute thi ----> setAttribute("class","created") ---> etle peli value batave ke apde su apiye che ke su banaiye chiye ----> ahiya apde class banayu jene value api created
+// document.querySelector(".container").replacewith(div2); // .replacewith() ---> ano matlab ke aa body ma div.container ni badle ma div.created banai dese like replace kari dese div.container ne aa nava thi....
