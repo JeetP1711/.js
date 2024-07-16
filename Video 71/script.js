@@ -134,3 +134,8 @@ let cont = document.querySelector(".container");
 // 1. BeforeBegin Method
 cont.insertAdjacentHTML("beforebegin","Hi I am inserted by jeet, using <b>BeforeBegin</b>");
 // BeforeBegin means ke ae selected element start thaya pela add karse
+
+// 2. AfterBegin Method
+cont.insertAdjacentHTML("afterbegin","Hi I am inserted by jeet, using <b>AfterBegin</b>");
+// AfterBegin means ke ae selected element start thaya pachi ena begining ma add karse
+// Matlab ki tarat start thaya pachi add kari dese ae starting ma
