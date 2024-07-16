@@ -168,3 +168,21 @@
 
 // Quick Explanation Of Remove ---->
 // .remove()  ----> Selected element ne remove kari apse....
+
+
+// Now how to know the classList of the selected element there's a method for it
+
+// Selecting and knowing all the list of class the .container have, like I updated the class = "container red bg-blue";
+
+// document.querySelector(".container").classList
+// It returns me -----> DOMTokenList(3) ['container', 'red', 'bg-blue', value: 'container red bg-blue']
+// This is the list form
+
+// document.querySelector(".container").className
+// It returns me ----> "container red bg-blue"
+// Just the name of classes it has
+
+// document.querySelector(".container").classList.add("Jeet"); // This will add the class Jeet in the classList of .container
+// document.querySelector(".container").classList.remove("red"); // This will remove the class red from the classList .container
+// document.querySelector(".container").classList.toggle("red"); // Toggle no matlab ke agar red hase to nikadi dese and nai hoy to api dese, means che to remove and na hoy to add
+// document.querySelector(".container").classList.contains("bg-blue"); // Aa check kari apse ke aa className che mara classList ma .container ma...
