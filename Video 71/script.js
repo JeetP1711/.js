@@ -139,3 +139,9 @@ cont.insertAdjacentHTML("beforebegin","Hi I am inserted by jeet, using <b>Before
 cont.insertAdjacentHTML("afterbegin","Hi I am inserted by jeet, using <b>AfterBegin</b>");
 // AfterBegin means ke ae selected element start thaya pachi ena begining ma add karse
 // Matlab ki tarat start thaya pachi add kari dese ae starting ma
+
+
+// 3. BeforeEnd Method
+cont.insertAdjacentHTML("beforeend","Hi I am inserted by jeet, using <b>BeforeEnd</b>");
+// BeforeEnd means ke ae selected element na end thay ena pela add karse
+// Like selected element na ending ma
