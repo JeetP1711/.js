@@ -145,3 +145,8 @@ cont.insertAdjacentHTML("afterbegin","Hi I am inserted by jeet, using <b>AfterBe
 cont.insertAdjacentHTML("beforeend","Hi I am inserted by jeet, using <b>BeforeEnd</b>");
 // BeforeEnd means ke ae selected element na end thay ena pela add karse
 // Like selected element na ending ma
+
+
+// 4. AfterEnd Method
+cont.insertAdjacentHTML("afterend","Hi I am inserted by jeet, using <b>AfterEnd</b>");
+// AfterEnd means ke ae selected element na pachi add karse
