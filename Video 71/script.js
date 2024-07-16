@@ -124,3 +124,29 @@
 // .before()      ----> Before means ae selected item na pela add kari dese
 // .after()       ----> After means ae selected item na pachi add kari dese
 // .replaceWith() ----> ReplaceWith means ke ae selected item ne replace kari dese nava jode
+
+
+// Now time to learn about inserting adjacent html
+
+let cont = document.querySelector(".container");
+// Storing value of document.querySelector(".container") in cont glabally for in here
+
+// 1. BeforeBegin Method
+cont.insertAdjacentHTML("beforebegin","Hi I am inserted by jeet, using <b>BeforeBegin</b>");
+// BeforeBegin means ke ae selected element start thaya pela add karse
+
+// 2. AfterBegin Method
+cont.insertAdjacentHTML("afterbegin","Hi I am inserted by jeet, using <b>AfterBegin</b>");
+// AfterBegin means ke ae selected element start thaya pachi ena begining ma add karse
+// Matlab ki tarat start thaya pachi add kari dese ae starting ma
+
+
+// 3. BeforeEnd Method
+cont.insertAdjacentHTML("beforeend","Hi I am inserted by jeet, using <b>BeforeEnd</b>");
+// BeforeEnd means ke ae selected element na end thay ena pela add karse
+// Like selected element na ending ma
+
+
+// 4. AfterEnd Method
+cont.insertAdjacentHTML("afterend","Hi I am inserted by jeet, using <b>AfterEnd</b>");
+// AfterEnd means ke ae selected element na pachi add karse
