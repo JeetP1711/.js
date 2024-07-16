@@ -10,7 +10,7 @@
 // console.log(document.querySelector(".box").outerHTML); // This will print me the div.box itself too like..... // <div class="box">This is the <b>Box</b>..</div>
 // The outerHTML even prints the tag itself where innerHTML don't...
 // Diff. Between .innerHTML & .outerHTML.
-// .innerHTML just prints the text inside the tag... like here it prints the ... --> "This is the <b>Box</b>.." 
+// .innerHTML just prints the text inside the tag... like here it prints the ... --> "This is the <b>Box</b>.."
 // .outerHTML prints the whole element along with the code itself including the tag and class or id of the html element.
 // So simply, .innerHTML prints only text of html element, and .outerHTML prints the whole element along with the text
 
@@ -118,7 +118,7 @@
 // document.querySelector(".container").replacewith(div2); // .replacewith() ---> ano matlab ke aa body ma div.container ni badle ma div.created banai dese like replace kari dese div.container ne aa nava thi....
 
 
-// Simple Explanation of Methods Given Above ------> 
+// Simple Explanation of Methods Given Above ------>
 // .append()      ----> Append means ae selected item na last ma add kari dese
 // .prepend()     ----> Prepend means e selected item na beginning ma add kari dese
 // .before()      ----> Before means ae selected item na pela add kari dese
@@ -160,7 +160,7 @@
 // AfterEnd ----> Element puru thaya pachi
 
 
-// Node removal method 
+// Node removal method
 // Means removing a element permenantly...
 
 // document.querySelector(".box").remove();
