@@ -12,6 +12,8 @@ function getRandomColor(){
     return `rgb(${val1}, ${val2}, ${val3})`
 }
 
+// This above code is just for the random color generation by CodeWithHarry...........
+
 setInterval(() => {
     document.querySelector(".child").style.backgroundColor = getRandomColor();
 }, 1000);
@@ -27,4 +29,8 @@ setTimeout(() => {
 // When the time outs the color doesnt change
 // And function wont work
 
+// SetInterval sets an interval of time, after which the task gets continued and continued
+// SetTimeOut means it will just run the code one time when it is being the time is out, the code wont excecute
 
+// SetInterval ---> Regular interval basis..
+// SetTimeOut ----> Only One time running..
