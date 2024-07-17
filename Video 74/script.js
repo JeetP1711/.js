@@ -8,8 +8,16 @@
 
 let btn = document.getElementById("btn");
 
-btn.addEventListener("click",()=>{
+btn.addEventListener("click", () => {
     document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now..";
 })
 // Ahiya .addEventListner no matlab ki ahiya hu ek evi event add karu chu, jenathi jyare b hu click karis tyare aa condition apply thase, jemki jyare hu aa btn par click karis tyare je arrow function ma lakhelu che ae apply thai jase and run thase
 // AddEventListener thi ama event add thase like jyare browser aa element par aa event listen karse tyare avu thase em....
+
+// let btn = document.getElementById("btn"); // Ana thi apde ek variable banayo and ema apde btn id ne target kari je ek button che
+
+// btn.addEventListener("click",()=>{ // Aa line no matlab ke jyare b click naam ni event aama listen thase aa button par tyare aa arrow function ne call karvanu
+// Means jyare b button par click thase tyare aa vastu thase
+// document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now.."; // And jyare button click thase tyare aa run thase
+// Means ke jyare hu button click karis tyare aa .box nu text change thai jase to ---> "I am a <b>Big Box</b> now..";
+// }) // Here the function ends.....!
