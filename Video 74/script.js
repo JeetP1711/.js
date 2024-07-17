@@ -42,3 +42,33 @@
 // This is same but unless click & double-click, now it's the right click which is here called as contextmenu here
 // contextmenu ----> right click....!
 // btn3.addEventListener("contextmenu", () => { // This will listen to the event of contextmenu i.e. ---> right click....!
+
+
+
+// Now let's learn about the keyboard events...
+// document.body.addEventListener("keydown", (e)=>{
+//     console.log(e);
+// })
+// This will print the keys, pressed in the keyboard while on the website or page
+
+// document.body.addEventListener("keyup", (e)=>{
+//     console.log(e);
+// })
+// This will print the keys, after releasing the pressed keys, while on the website or page
+
+// KeyBoard Events --->
+
+// keydown is a event which means it reads that, is there any key pressed in the keyboard, and we are storing that key in the variable e mentioned in the arrow function
+// And we are printing that function in the console...
+// document.body.addEventListener("keydown", (e)=>{ // keydown here means that whenever I press any key on the keyboard, it will store that key in the e and it will console.log its value in the console
+// KeyDown Means pressing the key will listen the event
+
+
+// And there's another event of keyboard which is similr to this
+
+// document.body.addEventListener("keyup", (e)=>{ // This is the keyup and keyup means it will listen to the event when u release any key
+// Like I have pressed s, but when I release the key, it will listen to the event and will store its value to the e and console log, when the pressed key is released
+// This is useful for the shortcut things...
+
+//     console.log(e);
+// })
