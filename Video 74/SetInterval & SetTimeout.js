@@ -19,3 +19,12 @@ setInterval(() => {
 // And then it does the task which is been given here.....
 
 
+setTimeout(() => {
+    document.querySelector(".child1").style.backgroundColor = getRandomColor();
+}, 3000);
+
+// And here I have given timeout so it just changed the color of the background of child1 only one time
+// When the time outs the color doesnt change
+// And function wont work
+
+
