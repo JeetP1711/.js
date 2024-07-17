@@ -6,11 +6,11 @@
 // Keyboard Events ----> https://developer.mozilla.org/en-US/docs/Web/API/Element#keyboard_events // Aa link upar keyboard ni badhi events kbr padi jase
 
 
-let btn = document.getElementById("btn");
+// let btn = document.getElementById("btn");
 
-btn.addEventListener("click", () => {
-    document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now..";
-})
+// btn.addEventListener("click", () => {
+//     document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now..";
+// })
 // Ahiya .addEventListner no matlab ki ahiya hu ek evi event add karu chu, jenathi jyare b hu click karis tyare aa condition apply thase, jemki jyare hu aa btn par click karis tyare je arrow function ma lakhelu che ae apply thai jase and run thase
 // AddEventListener thi ama event add thase like jyare browser aa element par aa event listen karse tyare avu thase em....
 
@@ -21,3 +21,13 @@ btn.addEventListener("click", () => {
 // document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now.."; // And jyare button click thase tyare aa run thase
 // Means ke jyare hu button click karis tyare aa .box nu text change thai jase to ---> "I am a <b>Big Box</b> now..";
 // }) // Here the function ends.....!
+
+let btn2 = document.getElementById("btn");
+
+btn2.addEventListener("dblclick", () => {
+    document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now..";
+})
+
+// This is same as above just aama event dblclick che, means when I would double click on the button, this will change the content as mentioned...
+
+// btn.addEventListener("dblclick", () => { // This will addEventListner for double click means whenever the button will listen double click, it will change the content of the .box to mentioned ---> "I am a <b>Big Box</b> now.."
