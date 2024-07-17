@@ -6,35 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event EventBubbling</title>
     <style>
-        body{
+        body {
             text-align: center;
         }
-        div{
+
+        div {
             padding: 14px;
             margin: 14px;
             cursor: pointer;
         }
-        .container{
+
+        .container {
             background-color: darkolivegreen;
             border: 5px solid green;
         }
-        .childContainer{
+
+        .childContainer {
             background-color: rebeccapurple;
             border: 5px solid purple;
         }
-        .child{
+
+        .child {
             background-color: lightblue;
             border: 5px solid blue;
         }
-        .container1{
+
+        .container1 {
             background-color: darkgreen;
             border: 5px solid green;
         }
-        .childContainer1{
+
+        .childContainer1 {
             background-color: burlywood;
             border: 5px solid brown;
         }
-        .child1{
+
+        .child1 {
             background-color: lightyellow;
             border: 5px solid yellow;
         }
@@ -51,7 +58,7 @@
             </div>
         </div>
     </div>
-    
+
     <h4>WithOut Event Bubbling</h4>
     <div class="container1">
         <div class="childContainer1">
@@ -60,7 +67,7 @@
             </div>
         </div>
     </div>
-    
+
 
 
     <script>
@@ -76,9 +83,9 @@
         c.addEventListener("click", () => {
             alert("Container is clicked")
         })
-        
+
         // This above one is with bubbling on
-        
+
         // I just made a simple programm here to just click and alert function, means if I click the child, then it shows child is clicked, then vice versa till container
         // But here when I click the child the childContainer and Container are selected automatically, and this is called eventBubbling
         // Here when, I click on the child, it shows alert "Child is clicked" then --> "ChildContainer is clicked" then also at last ---> "Container is clicked"
@@ -91,7 +98,7 @@
         // I can even remove this too, for that I need to add a new property....
         // By default js will consider the bubbling on and to turn it off u need to write that property
         // For that u need to turn off the propogation....
-        
+
         // And the below one is with without propogation and event Bubbling
 
         let d = document.querySelector(".child1");
@@ -119,7 +126,7 @@
         // I just wanna be specific, then I need to apply stopPropogation
         // And stopPropogation use karva mate mari jode ek element hovu joiye and ahiya ene mte me e element lidho...
         // And then I said e.stopPropogation jena karane mare propogation hati gayu
-        </script>
+    </script>
 </body>
 
 </html>
