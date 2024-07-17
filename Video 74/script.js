@@ -22,12 +22,23 @@
 // Means ke jyare hu button click karis tyare aa .box nu text change thai jase to ---> "I am a <b>Big Box</b> now..";
 // }) // Here the function ends.....!
 
-let btn2 = document.getElementById("btn");
+// let btn2 = document.getElementById("btn");
 
-btn2.addEventListener("dblclick", () => {
-    document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now..";
-})
+// btn2.addEventListener("dblclick", () => {
+//     document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now..";
+// })
 
 // This is same as above just aama event dblclick che, means when I would double click on the button, this will change the content as mentioned...
 
 // btn.addEventListener("dblclick", () => { // This will addEventListner for double click means whenever the button will listen double click, it will change the content of the .box to mentioned ---> "I am a <b>Big Box</b> now.."
+
+
+// let btn3 = document.getElementById("btn");
+
+// btn3.addEventListener("contextmenu", () => {
+//     document.querySelector(".box").innerHTML = "I am a <b>Big Box</b> now..";
+// })
+
+// This is same but unless click & double-click, now it's the right click which is here called as contextmenu here
+// contextmenu ----> right click....!
+// btn3.addEventListener("contextmenu", () => { // This will listen to the event of contextmenu i.e. ---> right click....!
