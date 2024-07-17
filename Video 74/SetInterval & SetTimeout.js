@@ -34,3 +34,12 @@ setTimeout(() => {
 
 // SetInterval ---> Regular interval basis..
 // SetTimeOut ----> Only One time running..
+
+// And for clearing the timeout and interval ----> clear is used
+
+// clearInterval ---> clears the interval
+// clearTimeout ---> clears the timeout
+
+// In the console and here too....
+
+// This way Interval and TimeOut is set and removed and cleared
