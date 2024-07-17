@@ -1,0 +1,21 @@
+// What are SetInterval & SetTimeout?
+// SetTimeout no matlab ki ek var thase aatla time pachi means time out thaya pachi, just one time
+// SetInterval means ke ae atla time pachi thatuj rese no matter what, its an interval of time
+
+// Now I am just setting a time interval of 1s and less to show u this by....
+
+// This is the function created by CWH for generating random color
+function getRandomColor(){
+    let val1 = Math.ceil(0 + Math.random()* 255);
+    let val2 = Math.ceil(0 + Math.random()* 255);
+    let val3 = Math.ceil(0 + Math.random()* 255);
+    return `rgb(${val1}, ${val2}, ${val3})`
+}
+
+setInterval(() => {
+    document.querySelector(".child").style.backgroundColor = getRandomColor();
+}, 1000);
+// This setInterval function gives the interval to the element being focused or pointed
+// And then it does the task which is been given here.....
+
+
