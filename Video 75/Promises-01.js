@@ -15,10 +15,11 @@
 // I will try to create a setTimeout function and ema hu promise nu resolve and reject nakhine check karis
 
 let p1 = new Promise(function(resolve, reject){
-    console.log("Promise is Pending...");
+    console.log("Promise 1 is Pending...");
     setTimeout(() => {
-        console.log("After 4 seconds");
+        console.log("After 4 seconds P1");
         resolve("This promise is resolved");
+        console.log("This promise is resolved");
     }, 4000);
 })
 console.log(p1);
@@ -37,8 +38,26 @@ console.log(p1);
 //     setTimeout(() => { // Ahiya ek me timeOut function banayo je mane ahiya 4s no time apse, matlab 4s pachi aa run thase
 //         console.log("After 4 seconds"); // Aa to just emj print karyu to know 4s over
 //         resolve("This promise is resolved"); // Ave 4s pachi aa promise finaly resolve thai jase and ave jaine aa problem fulfilled thase
+// console.log("This promise is resolved"); // Apde ahiya just apda mate ahiya promise is resolved evu print karyu
 //     }, 4000); // Aano matlab ke 4000 ms pachi aa load thase---> i.e. 4s....
 // }) // Promise finished here
 // console.log(p1); // Ahiya apde p1 ni condition print kariye che ki kai state ma che aa promise haal
 // And ahiya ae pending maj batavse, coz ahiya apde ene 4s thaya pela ni situation batavse ahiya, like aa ne kbr nai ke aa resolve thsi ke nai, coz timeOut 4s pachi thase
 // Coz ena mate aju aa resolve thayu aj nathi etle, and aa badhano karan che asynchronous nature of JS.....
+
+// Now lets do this same for the reject.....
+
+
+let p2 = new Promise(function(resolve, reject){
+    console.log("Promise 2 is Pending...");
+    setTimeout(() => {
+        console.log("After 4 seconds P2");
+        reject= new Error("This promise is resolved");
+        console.log(reject)
+    }, 4000);
+})
+console.log(p2);
+
+// Ahiya me ek aa code lakhyo jema upar vara ni jem ahiya apde reject ne call karyo
+// And reject ma ek error store kari dese, error no matlab ki je apde console ma errors joiye che ne evi error batavse ahiya
+// Like apde console ma red red error joiye evi error ne ahiya apde banai che
