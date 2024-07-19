@@ -6,3 +6,7 @@
 let p1 = new Promise((resolve, reject)=>{
     resolve("This is resolved");
 })
+
+p1.then(value=>{
+    console.log(value)
+})
