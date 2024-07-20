@@ -88,3 +88,6 @@ p3.then((value) => {
 //     console.log(error); // And agar reject thay to ahiya error print kari dese....
 // })) // And ahiya aa arrow function and puro function ahiya puro thayo
 // ANd aani sathe mare aa promise with the help of the reject using .then() puri thai.....!
+
+
+// With this the promises basics-02 over
