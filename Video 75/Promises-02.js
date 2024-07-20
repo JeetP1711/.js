@@ -12,3 +12,14 @@ let p1 = new Promise(function(resolve, reject){
 p1.then(value=>{
     console.log(value)
 })
+
+let p2 = new Promise((resolve, reject)=>{
+    console.log("The promise is waiting...");
+    setTimeout(() => {
+        console.log("After 4 seconds P2");
+        reject(new Error("This is an error passing this promise"));
+    }, 4000);
+})
+p2.catch(error=>{
+    console.log("Some error occured");
+})
