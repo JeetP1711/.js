@@ -52,3 +52,6 @@ p.then((value) => {
 // }).catch(error => { // Ahiya agar in case error avse to error ma jase aa means reject thase
 //     console.log("We are sorry but we are having problems loading this script"); // Reject thase to aa print thase...!
 // }) // And ahiya aa promise puri jena thi apde loadScript banai...
+
+
+// With this Promise-Chaining and LoadScript Using Pomise is over!!!
