@@ -17,13 +17,23 @@ let p1 = new Promise((resolve, reject) => {
 
 p1.then((value) => {
     console.log(value);
-    let p2 = new Promise((resolve, reject) => {
+    // let p2 = new Promise((resolve, reject) => {
+    //     console.log("This is Second Promise...!");
+    //     setTimeout(() => {
+    //         resolve("After 2s in derived promise....!");
+    //     }, 2000);
+    // })
+    // return p2;
+    // The above one is the one way of writing this
+    // And other way is ---> Given Below...........
+    
+    return new Promise((resolve, reject) => {
         console.log("This is Second Promise...!");
         setTimeout(() => {
             resolve("After 2s in derived promise....!");
         }, 2000);
     })
-    return p2;
+    // This is the direct way of giving the promise p2 from in here....
 }).then((value) => {
     console.log("We are done");
     return 2;
@@ -50,6 +60,16 @@ p1.then((value) => {
 //         setTimeout(() => { // This is here the basic setTimeout function for the differentiation of our program...
 //             resolve("After 2s in derived promise....!"); // This is the resolve for the p2 promise...
 //     }, 2000); // And here the 2s timeout Interval for this....
+// The above one is the one way of writing this
+// And other way is ---> Given Below...........
+
+// return new Promise((resolve, reject) => {
+//     console.log("This is Second Promise...!");
+//     setTimeout(() => {
+//         resolve("After 2s in derived promise....!");
+//     }, 2000);
+// })
+// This is the direct way of giving the promise p2 from in here....
 //     })
 //     return p2; // Here is the catch here I am returning the promise p2 from here in the .then(), which means now if I need to take the value in the next .then()
 // Then it will call the p2..
