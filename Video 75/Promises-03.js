@@ -45,4 +45,13 @@ p1.then((value) => {
 // Now lets delve into the .then() part in here
 // p1.then((value) => { // Its the basic .then for the p1...
 //     console.log(value); // Consoling the value of the resolve of the p1 promise
+//     let p2 = new Promise((resolve, reject) => { // Now here creating a new promise p2 in here in the .then of p1..
+//         console.log("This is Second Promise...!"); // Creating the promise like the basic way....!
+//         setTimeout(() => { // This is here the basic setTimeout function for the differentiation of our program...
+//             resolve("After 2s in derived promise....!"); // This is the resolve for the p2 promise...
+//     }, 2000); // And here the 2s timeout Interval for this....
+//     })
+//     return p2; // Here is the catch here I am returning the promise p2 from here in the .then(), which means now if I need to take the value in the next .then()
+// Then it will call the p2..
+// Returning value means now I am triggering the .then after this .then then it will trigger the promise p2, tuk ma p2 call thase ave...!
 // })
