@@ -41,3 +41,14 @@ p.then((value) => {
 //         script.onerror = () => {reject(0)} // AGar error avse to script reject thase.....
 //     })
 // }
+
+// let p = loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"); // Ave ahiya aek navu variable banayu jema apde loadscript sunc ne load kari
+// loadScript func ne apde load kari specific script mate, jeni link apde ahiy api che....!
+// p.then((value) => { // So ave ahiy apde .then() banayu
+//     console.log(value); // Ahiya apde value load karine console kari...
+//     return loadScript("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"); // Agar aa script load thai jaay to aama ek navi script load thai jase, means ahiya apde ek navi script load karai...!
+// }).then((value) => { // Ahiy fari then apyu means if resolve thase to
+//     console.log("Second Script Ready"); // Resolve thase to aama Second Script Ready lakhaine avse
+// }).catch(error => { // Ahiya agar in case error avse to error ma jase aa means reject thase
+//     console.log("We are sorry but we are having problems loading this script"); // Reject thase to aa print thase...!
+// }) // And ahiya aa promise puri jena thi apde loadScript banai...
