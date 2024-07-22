@@ -54,4 +54,8 @@ p1.then((value) => {
 //     return p2; // Here is the catch here I am returning the promise p2 from here in the .then(), which means now if I need to take the value in the next .then()
 // Then it will call the p2..
 // Returning value means now I am triggering the .then after this .then then it will trigger the promise p2, tuk ma p2 call thase ave...!
+// }).then((value) => { // Ave aa je .then(value) che ae apane p2 ni promise nu resolve apse.. so p2 is triggered here...
+//     console.log("We are done"); // And now aa vastu tyare print thase jyare p2 resolve thase
+// And ahiya p2 ma apde timeOut rakhyu che means ave aa jyare p1 resolve thai jase 2s pachi, ena b 2s pachi aa resolve thase
+// Means aa p1 resolve thaya pachi 2s raine resolve thase...
 // })
