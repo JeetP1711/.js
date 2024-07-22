@@ -58,4 +58,7 @@ p1.then((value) => {
 //     console.log("We are done"); // And now aa vastu tyare print thase jyare p2 resolve thase
 // And ahiya p2 ma apde timeOut rakhyu che means ave aa jyare p1 resolve thai jase 2s pachi, ena b 2s pachi aa resolve thase
 // Means aa p1 resolve thaya pachi 2s raine resolve thase...
+//     return 2; // Ahiya me ek emnem value return kari and ave agad hu .then lakhis ae aane promise ma convert kari dese..
+// }).then(value=>{ // And ahiya me value lidhi 2 ni ahiya....
+//     console.log("We are pakka vala done now....!"); // And ahiya me console kari didhu ke we are done now pakka...!
 // })
