@@ -30,3 +30,7 @@ p1.then(value => {
 // Avij vastu ne kevay apde multiple promise handlers jema ek pachi bija bija bija and agad .then vadhtaj jaay ahiya....!
 
 // There's one thing to be think of that is ki je vastu pela lakhi hase ae pela print thaine avse as ama apane kbr che ke je pela lakhiye ae pela print thay.....
+
+
+// This was the multiple handlers of the promise in here...!
+// Promise-04 Over!!
