@@ -20,7 +20,7 @@ p1.then(value => {
     console.log("This is third .then of p1");
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("This is promise-02 running after 3s of completion of p1 promise...!");
+            resolve("This is promise-02 running after 3s of completion of p1 promise...!"); // Aa vastu 3s ma jyare p1 resolve thase ena b 3s pachi aa print thase coz ahya apde timeOut ma evu lakhelu che...!
         }, 3000);
     })
 }).then(value=>{
@@ -28,3 +28,5 @@ p1.then(value => {
 })
 
 // Avij vastu ne kevay apde multiple promise handlers jema ek pachi bija bija bija and agad .then vadhtaj jaay ahiya....!
+
+// There's one thing to be think of that is ki je vastu pela lakhi hase ae pela print thaine avse as ama apane kbr che ke je pela lakhiye ae pela print thay.....
