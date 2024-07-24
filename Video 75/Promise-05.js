@@ -20,14 +20,26 @@ let p3 = new Promise((resolve,reject)=>{
     }, 3000);
 })
 
-p1.then(value=>{
-    console.log(value);
-})
+// p1.then(value=>{
+//     console.log(value);
+// })
 
-p2.then(value=>{
-    console.log(value);
-})
+// p2.then(value=>{
+//     console.log(value);
+// })
 
-p3.then(value=>{
+// p3.then(value=>{
+//     console.log(value);
+// })
+
+
+// Promise API means ke apde je promises banai hoy ema thi specific promises ne select kari sakiye and we can deal with it...!
+
+
+let p4 = Promise.all([p1,p2,p3]); // This will help me print all the values of the promises I have mentioned in here, like here I have mentioned p1,p2,p3....
+// And promise.all karvathi mane badhi promise je b hu bracket ma mention karis ae mane ahiya batavse.. and ae promise ni value ae mane ahiya print karine apse...!
+// .all matlab badhane ne select karse and emni value apse je resolve thase ae badha...!
+
+p4.then(value=>{
     console.log(value);
 })
