@@ -16,8 +16,8 @@ let p2 = new Promise((resolve,reject)=>{
 
 let p3 = new Promise((resolve,reject)=>{
     setTimeout(() => {
-        // resolve("Value 3")
-        reject(new Error("This is an error"));
+        resolve("Value 3")
+        // reject(new Error("This is an error"));
     }, 100);
 })
 
@@ -63,8 +63,14 @@ let p3 = new Promise((resolve,reject)=>{
 
 // Ave ahiya ek ana jevi same method che promise.any, je mane sauthi peli resolved value apse...
 // Like ahiya mane value 2 apse...
-let p4 = Promise.any([p1,p2,p3]);
+// let p4 = Promise.any([p1,p2,p3]);
 // Promise.any mane je b resolved value hase, ema sauthi pela je resolve thase ae return karse mane...!
+
+// And ave hu avi ritna ahiya ek basic promise lakhi saku jema hu lakhis promise.resolve and aa vastu je b huu andar lakhis ae mane print karine api dese console ma
+// let p4 = Promise.resolve("Hey This is an promise.resolve...!");
+
+// And similarly avu hu promise.reject b banai saku jema hu direct ahiyaj navi error banai dais like....
+let p4 = Promise.reject(new Error("This is an error!!"));
 
 p4.then(value=>{
     console.log(value);
