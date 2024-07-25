@@ -5,7 +5,7 @@
 let p1 = new Promise((resolve,reject)=>{
     setTimeout(() => {
         resolve("Value 1")
-    }, 1000);
+    }, 10000);
 })
 
 let p2 = new Promise((resolve,reject)=>{
@@ -21,11 +21,11 @@ let p3 = new Promise((resolve,reject)=>{
     }, 3000);
 })
 
-let p5 = new Promise((resolve,reject)=>{
-    setTimeout(() => {
-        resolve("Value 3")
-    }, 3000);
-})
+// let p5 = new Promise((resolve,reject)=>{
+//     setTimeout(() => {
+//         resolve("Value 3")
+//     }, 3000);
+// })
 
 // p1.then(value=>{
 //     console.log(value);
@@ -46,9 +46,17 @@ let p5 = new Promise((resolve,reject)=>{
 // let p4 = Promise.all([p1,p2,p3]); // This will help me print all the values of the promises I have mentioned in here, like here I have mentioned p1,p2,p3....
 // And promise.all karvathi mane badhi promise je b hu bracket ma mention karis ae mane ahiya batavse.. and ae promise ni value ae mane ahiya print karine apse...!
 // .all matlab badhane ne select karse and emni value apse je resolve thase ae badha...!
+
 // Promise.all will only work if all the promises are resolved, if anyone of the promise is been rejected, then the promise.all won't even work the way it must....!
-let p4 = Promise.allSettled([p1,p2,p3,p5]); // See here the promise.all didnt worked, coz one of the promise is been rejected and is showing error....!
+// let p4 = Promise.allSettled([p1,p2,p3,p5]); // See here the promise.all didnt worked, coz one of the promise is been rejected and is showing error....!
 // This way the promise.all will only work when the promises are all resolved..!!!
+
+// Now lets talk about the promise.race, its an interesting topic
+// Like this will race the all the resolved promises...
+// Like here for p1,p2&p3 which will resolve fast, it will find that...
+let p4 = Promise.race([p1,p2,p3]);
+// Here this will return me the promise whivh will require the shortest time to become resolved....!
+// Je b sauthi pela resolve thay ae ahiya ene print kari dese
 
 p4.then(value=>{
     console.log(value);
