@@ -18,7 +18,7 @@ let p3 = new Promise((resolve,reject)=>{
     setTimeout(() => {
         // resolve("Value 3")
         reject(new Error("This is an error"));
-    }, 3000);
+    }, 100);
 })
 
 // let p5 = new Promise((resolve,reject)=>{
@@ -54,9 +54,12 @@ let p3 = new Promise((resolve,reject)=>{
 // Now lets talk about the promise.race, its an interesting topic
 // Like this will race the all the resolved promises...
 // Like here for p1,p2&p3 which will resolve fast, it will find that...
-let p4 = Promise.race([p1,p2,p3]);
+// let p4 = Promise.race([p1,p2,p3]);
 // Here this will return me the promise whivh will require the shortest time to become resolved....!
 // Je b sauthi pela resolve thay ae ahiya ene print kari dese
+// And this not only works for the resolved ones but also for the reject also
+// Like here I just made 100 miliseconds to p3 and it is in reject and after running the promise.race its showing me the error, coz the error is returned firstly
+// Coz ahiya apde race ma badha promise vache race thase, ke pela su resolve thase and pela su reject thase, je promise pela work karse, ae ahiya return thaine print thase..
 
 p4.then(value=>{
     console.log(value);
