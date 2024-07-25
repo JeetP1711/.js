@@ -61,6 +61,11 @@ let p3 = new Promise((resolve,reject)=>{
 // Like here I just made 100 miliseconds to p3 and it is in reject and after running the promise.race its showing me the error, coz the error is returned firstly
 // Coz ahiya apde race ma badha promise vache race thase, ke pela su resolve thase and pela su reject thase, je promise pela work karse, ae ahiya return thaine print thase..
 
+// Ave ahiya ek ana jevi same method che promise.any, je mane sauthi peli resolved value apse...
+// Like ahiya mane value 2 apse...
+let p4 = Promise.any([p1,p2,p3]);
+// Promise.any mane je b resolved value hase, ema sauthi pela je resolve thase ae return karse mane...!
+
 p4.then(value=>{
     console.log(value);
 })
