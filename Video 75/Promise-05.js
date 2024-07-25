@@ -2,24 +2,24 @@
 
 // Lets create basic 3 promises in here to understand the promise api here....!
 
-let p1 = new Promise((resolve,reject)=>{
-    setTimeout(() => {
-        resolve("Value 1")
-    }, 10000);
-})
+// let p1 = new Promise((resolve,reject)=>{
+//     setTimeout(() => {
+//         resolve("Value 1")
+//     }, 10000);
+// })
 
-let p2 = new Promise((resolve,reject)=>{
-    setTimeout(() => {
-        resolve("Value 2")
-    }, 2000);
-})
+// let p2 = new Promise((resolve,reject)=>{
+//     setTimeout(() => {
+//         resolve("Value 2")
+//     }, 2000);
+// })
 
-let p3 = new Promise((resolve,reject)=>{
-    setTimeout(() => {
-        resolve("Value 3")
-        // reject(new Error("This is an error"));
-    }, 100);
-})
+// let p3 = new Promise((resolve,reject)=>{
+//     setTimeout(() => {
+//         resolve("Value 3")
+//         // reject(new Error("This is an error"));
+//     }, 100);
+// })
 
 // let p5 = new Promise((resolve,reject)=>{
 //     setTimeout(() => {
@@ -70,8 +70,18 @@ let p3 = new Promise((resolve,reject)=>{
 // let p4 = Promise.resolve("Hey This is an promise.resolve...!");
 
 // And similarly avu hu promise.reject b banai saku jema hu direct ahiyaj navi error banai dais like....
-let p4 = Promise.reject(new Error("This is an error!!"));
+// let p4 = Promise.reject(new Error("This is an error!!"));
 
-p4.then(value=>{
-    console.log(value);
-})
+// p4.then(value=>{
+    // console.log(value);
+// })
+
+// This is done and the Promise API is over...!
+
+// There are total 6 promise apis in here...
+// 1. Promise.all ---> This will just output all the resolved values status
+// 2. Promise.allSettled ---> This will give me status of all the promises in here
+// 3. Promise.race ---> This will race the promises and will return me the first promise which will get rejected or resolved the first.....!
+// 4. Promise.any ---> This will race the resolved promise and will return which promise resolves the fastest
+// 5. Promise.resolve ---> This will resolve the particular promise and acts as the promise being resolved
+// 6. Promise.reject ---> This will reject the particular promise and can throw the error in here only...!
