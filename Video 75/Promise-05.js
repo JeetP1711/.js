@@ -85,3 +85,5 @@
 // 4. Promise.any ---> This will race the resolved promise and will return which promise resolves the fastest
 // 5. Promise.resolve ---> This will resolve the particular promise and acts as the promise being resolved
 // 6. Promise.reject ---> This will reject the particular promise and can throw the error in here only...!
+
+// With this the whole Promise-API is over here!!!!
