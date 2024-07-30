@@ -34,3 +34,14 @@ try {
 // HERE I HAVE MADE A ERROR AND TRIED TO WRITE OUT THE R-098 IN HERE, WHICH ISN'T MENTIONED ANYWHERE SO ITS AN ERROR IN THIS SIDE, AND I HAE TRIED TO CATCH THE ERROR USING TRY AND CATCH METHOD
 // TRY AND CATCH ENSURES THAT THE ERROR IS BEING CATCHED IF THERE'S ANY ERROR AND WE CAN CONSOLE THE THING WHICH WE WANT HERE TO EXCECUTE, SO THAT THE CODE IS NOT INTERRRUTED, AND WE CAN HAVE THE REMAINING CODE AS IT IS AND WE CAN HAVE THE CODE AS IT IS....!
 // THIS WAY TRY AND CATCH IS USED....!
+
+// But there's an other catch here too
+try {
+    setTimeout(() => {
+        console.log(R-098);
+    }, 2000);
+} catch (error) {
+    console.log("Error...1");   
+}
+// Now this will show error coz the try catch method doesn't take the errors from the SetTimeout....!
+// Coz It don't take errors from the timeout means aa scheduled errors nai batave aa just tarat vara errors batavse
