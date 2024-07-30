@@ -6,7 +6,7 @@ let a = 1;
 for (let i = 0; i < 100; i++) {
     console.log(a + i);
 }
-// This is the loop for printing 1 - 100
+// This is the loop for printing 1 - 100 
 
 // Now let us see the forin loop......
 let obj = {
