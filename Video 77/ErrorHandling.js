@@ -57,3 +57,7 @@ setTimeout(() => {
 // } catch (error) {
     
 // }
+
+
+// This was all about the error handling in this file and error can be handled with the method of try and catch and for scheduled errors u need to put the try catch i the schedule time thought too!!!!!!!!!!!...
+// And this was Error Handling...!
