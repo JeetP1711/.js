@@ -1,0 +1,2 @@
+// Error Handling means handling the errors in a perfect way that it dont show any error in and from it
+// Like I am handling the error so that code further doesn't show any error and it becomes errorless and the code doesn't interruot itself in between...!
