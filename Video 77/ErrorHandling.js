@@ -45,3 +45,15 @@ try {
 }
 // Now this will show error coz the try catch method doesn't take the errors from the SetTimeout....!
 // Coz It don't take errors from the timeout means aa scheduled errors nai batave aa just tarat vara errors batavse
+// There's a solution here for it tooo~~~~
+try {
+    setTimeout(() => {
+        try {
+            console.log(R-098);
+        } catch (error) {
+            console.log("This is error");
+        }
+    }, 2000);
+} catch (error) {
+    
+}
