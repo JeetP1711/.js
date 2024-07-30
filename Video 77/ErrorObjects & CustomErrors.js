@@ -22,3 +22,9 @@ try {
 } catch (error) {
     console.log(error.name); // This will print the "Error" coz its the simple error.......!
 }
+
+try {
+    throw new ReferenceError("This is normal error")
+} catch (error) {
+    console.log(error.name); // This will print the "Error" coz its the simple error.......!
+}
