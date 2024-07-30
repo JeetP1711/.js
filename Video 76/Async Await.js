@@ -1,22 +1,26 @@
 // This is the file containing the async await...!
 // Let us try to fetch the data of the weather and I am trying to make the weather fetching console
 
-function getWeatherData(){
+async function getWeatherData(){
     let GujaratWeather = new Promise((resolve,reject)=>{
         setTimeout(() => {
-            resolve("21 Degree")
+            resolve("21 Degree");
         }, 1000);
     })
 
     let MumbaiWeather = new Promise((resolve,reject)=>{
         setTimeout(() => {
-            resolve("27 Degree")
+            resolve("27 Degree");
         }, 7000);
     })
-    GujaratWeather.then(value=>{
-        console.log(value)
-    })
-    MumbaiWeather.then(value=>{
-        console.log(value)
-    })
+
+    console.log("Fetching Gujarat Weather.... Please Wait!");
+    let GujaratW = await GujaratWeather;
+    console.log("Fetched Gujarat Weather: "+ GujaratW);
+    console.log("Fetching Mumbai Weather.... Please Wait!");
+    let MumbaiW = await MumbaiWeather;
+    console.log("Fetched Mumbai Weather: "+ MumbaiW);
 }
+
+console.log("Welcome to Weather Forecast!!");
+getWeatherData();
