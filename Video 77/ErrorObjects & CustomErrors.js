@@ -9,4 +9,5 @@ try {
     console.log(Jeet)
 } catch (error) {
     console.log(error.name); // This will help me print the name and type of the error, like here it is the reference Error
+    console.log(error.message); // This will help me print the message of the error to be filled like here the message is "Jeet is not defined"
 }
