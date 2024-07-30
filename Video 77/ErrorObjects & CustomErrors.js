@@ -15,3 +15,5 @@ try {
 
 // Like ave hu emnem error lakhu to mane akhi error print karine ape like blah blah blah, vastu hoy nani but error akha gaam thi moti,, to ene seolve karva error object banayu che, so that ki ahiya mane bau ghucham ghucham na lage
 
+// Ave ahiya hu specific type of erroor b throw kari saku like see...--->
+
