@@ -23,3 +23,10 @@ setTimeout(() => {
 setTimeout(() => {
     console.log("Fetching Username And Password Of R-098.......Successfullllllllllllll.....!");
 }, 10000);
+
+// Try And Catch Using here
+try {
+    console.log(R-098);
+} catch (error) {
+    console.log("There is an Error Fetching The Username And Password Of R-098");
+}
