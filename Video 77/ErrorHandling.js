@@ -25,11 +25,11 @@ setTimeout(() => {
 }, 10000);
 
 // Try And Catch Using here
-try {
-    console.log(R-098);
-} catch (error) {
-    console.log("There is an Error Fetching The Username And Password Of R-098");
-}
+// try {
+//     console.log(R-098);
+// } catch (error) {
+//     console.log("There is an Error Fetching The Username And Password Of R-098");
+// }
 
 // HERE I HAVE MADE A ERROR AND TRIED TO WRITE OUT THE R-098 IN HERE, WHICH ISN'T MENTIONED ANYWHERE SO ITS AN ERROR IN THIS SIDE, AND I HAE TRIED TO CATCH THE ERROR USING TRY AND CATCH METHOD
 // TRY AND CATCH ENSURES THAT THE ERROR IS BEING CATCHED IF THERE'S ANY ERROR AND WE CAN CONSOLE THE THING WHICH WE WANT HERE TO EXCECUTE, SO THAT THE CODE IS NOT INTERRRUTED, AND WE CAN HAVE THE REMAINING CODE AS IT IS AND WE CAN HAVE THE CODE AS IT IS....!
