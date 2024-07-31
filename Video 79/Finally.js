@@ -13,3 +13,20 @@
 
 // The finally statement may seem like a normal statement means ke aa vastu error avse ke nai ave print thase, but to b aa imp che
 // Like apde normally console.log kri sakiye if normal hoy to, but aama ek catch che
+
+function main1() {
+    try {
+        let sum = 5 + 7;
+        console.log(sum * X);
+        return true;
+    } catch (error) {
+        console.log("This is an error!!!");
+        return false;
+    }
+    // finally{
+    console.log("This is the final and last statement....!");
+    // }
+}
+
+a = main1();
+console.log(a);
