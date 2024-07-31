@@ -30,3 +30,8 @@ function main1() {
 
 a = main1();
 console.log(a);
+
+// Ahiya me ek function lidhu che and jyare hu finally hatai dau chu to aa console.log nathi thatu, baki finally lakhu to last statement print thay che
+// Etle aa vastu mate finally kaam ma ave, jyare apde koi function ni andar kai karva mangiye and all jyare kariye tyare apde finally clause karvani jrur pade
+// And aa vastu matej finally vapray che!!!!
+// Ke error ave ke na ave, finally varu statement to run thai aj jase em....!
