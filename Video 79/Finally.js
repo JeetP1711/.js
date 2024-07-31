@@ -35,3 +35,7 @@ console.log(a);
 // Etle aa vastu mate finally kaam ma ave, jyare apde koi function ni andar kai karva mangiye and all jyare kariye tyare apde finally clause karvani jrur pade
 // And aa vastu matej finally vapray che!!!!
 // Ke error ave ke na ave, finally varu statement to run thai aj jase em....!
+
+// This is all about the finally clause
+// And aana sathe apde finally clause puru
+// Jai Shri Krishna❤️
