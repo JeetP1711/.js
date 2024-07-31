@@ -23,9 +23,9 @@ function main1() {
         console.log("This is an error!!!");
         return false;
     }
-    // finally{
+    finally{
     console.log("This is the final and last statement....!");
-    // }
+    }
 }
 
 a = main1();
