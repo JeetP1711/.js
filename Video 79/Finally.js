@@ -10,3 +10,6 @@ try {
 finally{
     console.log("This is the final and last statement....!");
 }
+
+// The finally statement may seem like a normal statement means ke aa vastu error avse ke nai ave print thase, but to b aa imp che
+// Like apde normally console.log kri sakiye if normal hoy to, but aama ek catch che
