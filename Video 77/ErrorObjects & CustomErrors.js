@@ -28,3 +28,5 @@
 // } catch (error) {
 //     console.log(error.name); // This will print the "Error" coz its the simple error.......!
 // }
+
+// This was all about how actually the error is being handeled and u are able to run the whole code, even if there's any error in here and all..............!!!
