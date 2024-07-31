@@ -43,3 +43,6 @@ let c = await Rag1();
 
 
 TheMain();
+
+// Await means ke koi b promise je target kareli che, ae jya sudhi fulfill na thay tya sudhi rah jose....
+// And kyare b apde function ne async ma nakhiye tyarej hu promise ne await ma nakhi saku
