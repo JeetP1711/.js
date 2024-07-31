@@ -17,14 +17,14 @@
 
 // Ave ahiya hu specific type of erroor b throw kari saku like see...--->
 
-try {
-    throw new Error("This is normal error")
-} catch (error) {
-    console.log(error.name); // This will print the "Error" coz its the simple error.......!
-}
+// try {
+//     throw new Error("This is normal error")
+// } catch (error) {
+//     console.log(error.name); // This will print the "Error" coz its the simple error.......!
+// }
 
-try {
-    throw new ReferenceError("This is normal error")
-} catch (error) {
-    console.log(error.name); // This will print the "Error" coz its the simple error.......!
-}
+// try {
+//     throw new ReferenceError("This is normal error")
+// } catch (error) {
+//     console.log(error.name); // This will print the "Error" coz its the simple error.......!
+// }
