@@ -15,3 +15,6 @@ let p ={
     }
 }
 // If I only write this and then try to print a.run then It will give me a bigggggggg error like it did till now
+
+
+// But now I have made the proto for p and a and combining it...!
