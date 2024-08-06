@@ -1,0 +1,2 @@
+// What is OOPs?
+// Object-oriented programming (OOP) is a style of programming characterized by the identification of classes of objects closely linked with the methods (functions) with which they are associated.
