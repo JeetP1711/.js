@@ -17,3 +17,8 @@
 // Abstraction means apde je vastu just apda sudhi rakhvi hoy and bija ne bataine kai faydo nai em, jem ki mare backend ma su chale che ae user bataine kai faydo nai to apde ae vastu just apdi sudhi simit rakhvani, like apde C++ ma public and private karta hata ae.....!
 // Official Defination Below
 // Abstraction, in the context of OOP, refers to the ability to hide complex implementation details and show only the necessary features of an object. This simplifies the interaction with objects, making programming more intuitive and efficient.
+
+// 3. Encapsulation
+// Encapsulation matlab ki apde akho data che, means me ek class banayu and ema khasi badhi vastu che, like class na khasa badha class, ave mare ae badha class ek class ma nakhva hoy to hu nakhi saku like banking system ma hu bank naam nu class banau and ema badha features nakhi saku, enej Encapsulation kevay, matlab ki ek class ma khasi badhi vastu hu kari saku, ena madad thi. One class can do everything.....! And store every data and class which it belongs!!!!...!!
+// Official Defination Below
+// Encapsulation can be defined as “the packing of data and functions into one component”. This is also known as grouping or bundling, and simply means to bring together data and the methods which operate on data. It can be a function, a class, or an object.
