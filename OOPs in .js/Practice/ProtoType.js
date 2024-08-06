@@ -2,7 +2,10 @@
 
 let a = {
     name: 'Jeet',
-    interest: 'AutoMobile'
+    interest: 'AutoMobile',
+    run : ()=>{
+        console.log('SELF RUN IN a')
+    }
 }
 
 console.log(a)
@@ -23,3 +26,8 @@ a.__proto__ = p
 a.run()
 // Now this will print the RUN coz we made here the proto for it.....
 // And prototype mate apde __proto__ vapariye......!
+
+
+// Now I have added here the run in a..
+// So this will print now the SELF RUN IN a
+// Cpz aama sauthi pela priority ape je object ma hoy ene...!
