@@ -18,3 +18,8 @@ let p ={
 
 
 // But now I have made the proto for p and a and combining it...!
+// Now I am defining a protype of a into the p, so that a can take
+a.__proto__ = p
+a.run()
+// Now this will print the RUN coz we made here the proto for it.....
+// And prototype mate apde __proto__ vapariye......!
