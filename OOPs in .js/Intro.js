@@ -22,3 +22,8 @@
 // Encapsulation matlab ki apde akho data che, means me ek class banayu and ema khasi badhi vastu che, like class na khasa badha class, ave mare ae badha class ek class ma nakhva hoy to hu nakhi saku like banking system ma hu bank naam nu class banau and ema badha features nakhi saku, enej Encapsulation kevay, matlab ki ek class ma khasi badhi vastu hu kari saku, ena madad thi. One class can do everything.....! And store every data and class which it belongs!!!!...!!
 // Official Defination Below
 // Encapsulation can be defined as “the packing of data and functions into one component”. This is also known as grouping or bundling, and simply means to bring together data and the methods which operate on data. It can be a function, a class, or an object.
+
+// 4. Polymorphism
+// Polymorphism matlab hu ek aj class ke object ne biji biji ritna vapri saku, jem ki ek class ne hu var var repeat karine alag alag ritna apde ene vaparie, like Mobile naam na class ne hu alag alag ritna vapri saku like Mobile ma rami saku, bhani saku, song sambhdi saku and much more and more....!
+// Official Defination Below
+// Polymorphism is a concept in object-oriented programming that allows the same function to be used in different forms. Polymorphism is achieved through dynamic typing, allowing variables and functions to adapt to different data types.
