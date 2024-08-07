@@ -3,7 +3,7 @@
 let a = {
     name: 'Jeet',
     interest: 'AutoMobile',
-    run : ()=>{
+    run: () => {
         console.log('SELF RUN IN a')
     }
 }
@@ -12,8 +12,8 @@ console.log(a)
 // This was the code of just printing the object a
 // Now lets try to add a prototype of a
 
-let p ={
-    run: ()=>{
+let p = {
+    run: () => {
         console.log('RUN')
     },
     name2: 'Raghvat!' // I have added a prototype Name2 here and now I want to print it, so I can directly print this now!!!
