@@ -56,8 +56,8 @@ else {
 
 // Ternary Operator
 // Ternary Operators are such conditions which I can directly make it in the code without writing the else if conditions in here
-let x=5, y=9;
-let z = (x>y)?(x-y):(y-x);
+let x = 5, y = 9;
+let z = (x > y) ? (x - y) : (y - x);
 
 console.log(z);
 
