@@ -11,3 +11,11 @@ class RailwayForm{
         this.name = name;
     }
 }
+
+let Jeet = new RailwayForm();
+let Raghvat = new RailwayForm();
+Jeet.fill("Jeet");
+Raghvat.fill("Raghvat");
+Jeet.submit();
+Raghvat.submit();
+Jeet.cancel();
