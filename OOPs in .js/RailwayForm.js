@@ -3,22 +3,23 @@
 // Creating a class named RailwayForm in here
 // Which has three functions in here itself
 // 1st func ---> submit() ---> which submits the form to server.......
-class RailwayForm{
-    submit(){
-        console.log(this.name+ ": Your form is been submitted!!!");
+class RailwayForm {
+    submit() {
+        console.log(this.name + ": Your form is been submitted for the train : " + this.number);
     }
-    cancel(){
-        console.log(this.name+ ": Your form is been cancelled");
+    cancel() {
+        console.log(this.name + ": Your form is been cancelled for the train : " + this.number);
     }
-    fill(name){
+    fill(name, number) {
         this.name = name;
+        this.number = number;
     }
 }
 
 let Jeet = new RailwayForm();
 let Raghvat = new RailwayForm();
-Jeet.fill("Jeet");
-Raghvat.fill("Raghvat");
+Jeet.fill("Jeet", 1868);
+Raghvat.fill("Raghvat", 1770);
 Jeet.submit();
 Raghvat.submit();
 Jeet.cancel();
