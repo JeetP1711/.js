@@ -10,7 +10,7 @@ let a = {
     run : ()=>{
         console.log('SELF RUN IN a')
     }
-}
+} 
 
 console.log(a)
 // This was the code of just printing the object a
