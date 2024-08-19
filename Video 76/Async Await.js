@@ -1,6 +1,5 @@
 // This is the file containing the async await...!
 // Let us try to fetch the data of the weather and I am trying to make the weather fetching console
-
 async function TheMain(){
 
 async function getWeatherData(){
