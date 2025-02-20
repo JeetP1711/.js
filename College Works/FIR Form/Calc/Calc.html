@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Usig HTML, CSS & JS</title>
+    <link rel="stylesheet" href="Calc.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .calc {
+            width: 400px;
+        }
+
+        .display {
+            width: 100%;
+            height: 60px;
+            background: #fff;
+            text-align: right;
+            padding: 15px;
+            font-size: 24px;
+            border: 1px solid #ccc;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2px;
+        }
+
+        button {
+            padding: 20px;
+            font-size: 30px;
+            border: " ";
+        }
+
+        button.op {
+            color: blue;
+            background: #d9e1f2;
+        }
+
+        button.num {
+            color: black;
+            background: #f0f0f0;
+        }
+
+        button.eq {
+            background: blue;
+            color: white;
+            grid-column: span 2;
+        }
+
+        button.del {
+            background: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calc">
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteLast()" class="del">&times;</button>
+            <button onclick="appendOperator('/')" class="op">÷</button>
+            <button onclick="appendOperator('*')" class="op">*</button>
+            <button onclick="appendNumber('7')" class="num">7</button>
+            <button onclick="appendNumber('8')" class="num">8</button>
+            <button onclick="appendNumber('9')" class="num">9</button>
+            <button onclick="appendOperator('-')" class="op">-</button>
+            <button onclick="appendNumber('4')" class="num">4</button>
+            <button onclick="appendNumber('5')" class="num">5</button>
+            <button onclick="appendNumber('6')" class="num">6</button>
+            <button onclick="appendOperator('+')" class="op">+</button>
+            <button onclick="appendNumber('1')" class="num">1</button>
+            <button onclick="appendNumber('2')" class="num">2</button>
+            <button onclick="appendNumber('3')" class="num">3</button>
+            <button onclick="appendNumber('00')" class="num">00</button>
+            <button onclick="calculate()" class="eq">=</button>
+            <button onclick="appendNumber('0')" class="num">0</button>
+            <button onclick="appendNumber('.')" class="num">.</button>
+        </div>
+        <div class="display" id="display">0</div>
+    </div>
+    <script src="Calc.js">
+        let display = document.getElementById('display'), currentInput = '';
+        const clearDisplay = () => (
+            currentInput = '', display.innerText = ''
+        );
+        const deleteLast = () => (
+            currentInput = currentInput.slice(0, -1), display.innerText = currentInput || ''
+        );
+        const appendNumber = n => (
+            currentInput += n, display.innerText = currentInput
+        );
+        const appendOperator = op => (
+            currentInput += ` ${op} `, display.innerText = currentInput
+        );
+        const calculate = () => (
+            display.innerText = eval(currentInput.replace('x', '*').replace('÷', '/')) || '0'
+        );
+    </script>
+</body>
+
+</html>

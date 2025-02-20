@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submit Success</title>
+</head>
+<body>
+    <h1>Form Submit Success</h1>
+    <form action="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter Name Here..." >
+        <label for="file">Upload File:</label>
+        <input type="file" name="file" id="file" placeholder="Upload Your profile">
+        <button type="button" onclick="success()">Dark</button>
+        <button type="submit" onclick="diable(this)" id="sub">Submit</button>
+    </form>
+    <script>
+        function success(){
+            document.body.style.backgroundColor="black";
+            document.body.style.color="white";
+            document.getElementById("sub").innerHTML="disabled";
+        };
+        function diable(button){
+            button.disabled = true;
+        }
+    </script>
+</body>
+</html>
