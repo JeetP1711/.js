@@ -1,0 +1,4 @@
+const board = document.getElementById(board'); const resetButton = document.getElementById('reset'); let currentPlayer = 'X'; let cells = Array(9).fill(null); let gameActive = true;
+ I
+board.addEventListener('click', function (event) { const cell = event.target; const index - Array.from(board.children).indexOf(cell); if (cell.classlist.contains('cell') && lcell.textContent && gameActive) (cell.textContent = currentPlayer: cells[index] = currentPlayer; if (checkWinner()) t alert(currentPlayer + ' wins!'); gameActive = false; else if (cells.every(cell => cell)) (alert('ItI's a tie!'); gameActive = false; else currentPlayer currentPlayer === 'x' 7 '0' : 'X';
+)):
